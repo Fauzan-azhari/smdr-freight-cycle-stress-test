@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Jika memakai penelitian, data, atau model ini, mohon sitasi sebagai berikut."
+title: "Sensitivitas Pemenuhan Covenant dan Likuiditas terhadap Siklus Freight Rate: Stress Test Berbasis Skenario dan Backtesting pada PT Samudera Indonesia Tbk, 2026-2031"
+authors:
+  - family-names: "Najib"
+    given-names: "Fauzan Azhari"
+version: 1.0.0
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/Fauzan-azhari/smdr-freight-cycle-stress-test"
+keywords:
+  - freight rate
+  - covenant
+  - stress test
+  - liquidity risk
+  - container shipping
+  - Indonesia
