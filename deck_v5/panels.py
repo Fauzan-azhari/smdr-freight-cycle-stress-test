@@ -108,7 +108,7 @@ def s2_how_much(fig, bg, D, x, y, w, h):
     bx0, bw, vmax, xd = x + 1.95, 1.4, 44.0, x + 3.95
     px = lambda v: bx0 + v / vmax * bw
     yh = y + 0.42
-    txt(bg, x, yh, "Skenario", 7.8, ABU_D, "bold"); txt(bg, bx0, yh, f"% EBITDA TTM (USD {idn(eb, 0)} juta)", 7.8, ABU_D, "bold"); txt(bg, bx0, yh + 0.15, "abu muda = rentang parameter transmisi", 7, ABU_D); txt(bg, xd, yh, "Definisi dan dasar besaran", 7.8, ABU_D, "bold")
+    txt(bg, x, yh, "Skenario", 7.8, ABU_D, "bold"); txt(bg, bx0, yh, f"% EBITDA TTM (USD {idn(eb, 0)} juta)", 7.8, ABU_D, "bold"); txt(bg, xd, yh, "Definisi dan dasar besaran", 7.8, ABU_D, "bold")
     yy = yh + 0.2
     ytop = yy
     mw = max(r[2] for r in macro) / eb * 100
@@ -121,6 +121,7 @@ def s2_how_much(fig, bg, D, x, y, w, h):
         hline(bg, x, x + w, yy + 0.02, ABU, 0.8)
         txt(bg, x, yy + 0.15, gname, 8.6, INK, "bold")
         if col == KUNING:
+            ymk = yy + 0.02
             txt(bg, px(mw) + 0.08, yy + 0.15, f"Macro Shock terburuk: {idn(mw, 0)}%", 7.6, ABU_D)
         yy += 0.25
         for nm, c, a in rows:
@@ -132,9 +133,17 @@ def s2_how_much(fig, bg, D, x, y, w, h):
             txt(bg, px(pa) + 0.08, yy + 0.125, f"{idn(pc_, 0)}\u2013{idn(pa, 0)}%" if pa - pc_ >= 0.5 else f"{idn(pc_, 0)}%", 8.6, INK, "bold")
             txt(bg, xd, yy + 0.125, BASIS[nm], 7.8, ABU_D)
             yy += 0.225
+        if col == KUNING:
+            ymk_end = yy
     for t_ in (10, 20, 30, 40):
         bg.plot([px(t_), px(t_)], [ytop + 0.22, yy], color=GRID, lw=0.8, zorder=1)
-    bg.plot([px(mw)] * 2, [ytop + 0.22, yy], color=ABU_D, lw=0.9, ls=(0, (4, 2.5)), zorder=2)
+    bg.plot([px(mw)] * 2, [ymk, ymk_end], color=ABU_D, lw=0.9, ls=(0, (4, 2.5)), zorder=2)
+    bg.plot([bx0, px(40)], [yy + 0.02, yy + 0.02], color=ABU_D, lw=0.8, zorder=2)
+    for t_ in (0, 10, 20, 30, 40):
+        bg.plot([px(t_)] * 2, [yy + 0.02, yy + 0.06], color=ABU_D, lw=0.8, zorder=2)
+        txt(bg, px(t_), yy + 0.17, f"{t_}%", 7.6, ABU_D, ha="center")
+    txt(bg, px(40) + 0.3, yy + 0.17, "penurunan EBITDA TTM", 7.6, ABU_D)
+    leg(fig, bg, x, yy + 0.4, [("box", ABU_D, "batang: asumsi tengah"), ("box", EXT, "sambungan: sampai asumsi adverse")], size=8, gap=0.2)
 
 
 
