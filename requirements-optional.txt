@@ -1,0 +1,1 @@
+akshare>=1.18   # opsional: mengambil ulang riwayat Drewry WCI (src/smdr/freight.py)

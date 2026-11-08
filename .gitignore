@@ -1,0 +1,35 @@
+# Daftar putih: hanya berkas di bawah ini yang dilacak. Dokumen sumber (PDF, Excel IDX), arsip, dan catatan pribadi TIDAK ikut.
+/*
+!/.github/
+!/.gitignore
+!/LICENSE
+!/README.md
+!/CITATION.cff
+!/CHANGELOG.md
+!/Makefile
+!/pyproject.toml
+!/requirements.txt
+!/requirements-optional.txt
+!/src/
+!/tests/
+!/data/
+!/docs/
+!/notebooks/
+!/model/
+!/deck_v5/
+!/Financial-Statements/
+
+# di dalam folder yang dilacak
+/Financial-Statements/*
+!/Financial-Statements/SMDR_Financial_Statements_2021_9M26.xlsx
+/deck_v5/cache.pkl
+/deck_v5/contact.local.json
+/deck_v5/out_private/
+/deck_v5/versi_stopford/
+/deck_v5/__pycache__/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+*.egg-info/
