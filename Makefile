@@ -15,6 +15,7 @@ data:       ## 01_raw -> 03_canonical -> 04_marts
 
 deck:       ## data dan 8 slide (menulis data/00_registry/deck_dependencies.csv)
 	cd deck_v5 && $(PY) data.py && $(PY) slides.py
+	@if $(PY) -c 'import pptx' 2>/dev/null; then cd deck_v5 && $(PY) export_deck.py; fi
 
 registry:   ## sources, lineage, kamus, kontrak skema
 	$(PY) -m smdr.registry

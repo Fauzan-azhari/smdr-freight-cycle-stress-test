@@ -24,6 +24,7 @@ Hasil bersifat pro forma atas posisi 30 September 2026 (belum diaudit). Ia bukan
 | [`notebooks/paper.ipynb`](notebooks/paper.ipynb) · [`paper.html`](notebooks/paper.html) | Naskah gaya artikel jurnal: 17 persamaan bernomor, 14 tabel, 6 gambar. Angka pada teks dihitung dari data saat naskah dibangun |
 | [`model/SMDR_Financial_Model.xlsx`](model/SMDR_Financial_Model.xlsx) | Financial model berumus hidup di atas laporan keuangan; 6 skenario × 2 kasus; dicocokkan sel per sel dengan model Python ([README](model/README.md)) |
 | [`deck_v5/out/`](deck_v5/out/) | Delapan slide presentasi (PNG) dan sumbernya |
+| [`deck_v5/export/`](deck_v5/export/) | Deck terpadu: PPTX dan PDF (slide berupa gambar, tidak dapat disunting) |
 | [`data/`](data/README.md) | Data teks terbuka berlapis: `00_registry` → `01_raw` → `02_curated` → `03_canonical` → `04_marts` |
 | [`src/smdr/`](src/smdr/) | Kode: ingest, kontrol mutu, model transmisi, kas, covenant, mitigasi, ketahanan, registri |
 | [`tests/`](tests/) | Uji unit, kontrak data, jejak mentah ke kanonik, kecocokan Excel, dan naskah |

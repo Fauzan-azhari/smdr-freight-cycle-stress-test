@@ -1,1 +1,2 @@
 akshare>=1.18   # opsional: mengambil ulang riwayat Drewry WCI (src/smdr/freight.py)
+python-pptx>=1.0   # opsional: menggabungkan slide menjadi PPTX (deck_v5/export_deck.py)
