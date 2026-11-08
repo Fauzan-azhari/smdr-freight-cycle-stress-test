@@ -1,0 +1,9 @@
+project_id,status,status_date,source_id,evidence_id,acceptance_status,note
+PRJ-CT1,negotiating,2026-05-18,S3,EV-S3-CT-QUOTE,usable,penawaran harga 12 Feb 2026; perjanjian definitif belum ada
+PRJ-CT2,negotiating,2026-05-18,S3,EV-S3-CT-QUOTE,usable,penawaran harga 12 Feb 2026; perjanjian definitif belum ada
+PRJ-CV1,negotiating,2026-05-18,S3,EV-S3-CV-LOI,usable,surat minat 30 Jul 2025
+PRJ-CT1,contracted,2026-10-30,N-KONTAN,EV-N-KONTAN-5,conditional,lima kapal dikontrak menurut paparan direksi; pencocokan ke kapal individual belum terkonfirmasi
+PRJ-CT2,contracted,2026-10-30,N-KONTAN,EV-N-KONTAN-5,conditional,idem
+PRJ-CV1,contracted,2026-10-30,N-KONTAN,EV-N-KONTAN-5,conditional,idem
+PRJ-SSL1,contracted,2026-11-03,N-SSL,EV-N-SSL,usable,
+PRJ-SSL2,contracted,2026-11-03,N-SSL,EV-N-SSL,usable,

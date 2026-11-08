@@ -1,0 +1,72 @@
+statement,line_key,window,value_usd,status,reason
+CF,advances_fixed_assets,TTM_2026-09,2604791.0,ok,
+CF,associates_purchase,TTM_2026-09,,nd_component,n.d. pada 9M26
+CF,bank_loan_proceeds,TTM_2026-09,50676570.0,ok,
+CF,bank_loan_repayments,TTM_2026-09,22858706.0,ok,
+CF,capex_fixed_assets,TTM_2026-09,44008755.0,ok,
+CF,cash_begin,TTM_2026-09,317735830.0,ok,
+CF,cash_end,TTM_2026-09,330866564.0,ok,
+CF,cash_from_operations,TTM_2026-09,225854338.0,ok,
+CF,cff,TTM_2026-09,-75304492.0,ok,
+CF,cfi,TTM_2026-09,-108989529.0,ok,
+CF,cfo,TTM_2026-09,197246988.0,ok,
+CF,dividends_paid,TTM_2026-09,23248209.0,ok,
+CF,dividends_received,TTM_2026-09,,not_comparable,galat penyajian sumber pada 9M25 (lihat fs_known_exceptions)
+CF,fvtpl_assets_net,TTM_2026-09,-69837165.0,ok,
+CF,fx_effect_cash,TTM_2026-09,177767.0,ok,
+CF,interest_paid,TTM_2026-09,32388172.0,ok,
+CF,interest_received,TTM_2026-09,13227233.0,ok,
+CF,lease_payments,TTM_2026-09,,nd_component,n.d. pada FY2025
+CF,net_change_cash,TTM_2026-09,12952967.0,ok,
+CF,other_financing,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+CF,other_investing,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+CF,payments_payroll,TTM_2026-09,91928473.0,ok,
+CF,payments_suppliers,TTM_2026-09,546794696.0,ok,
+CF,proceeds_fixed_assets,TTM_2026-09,23767099.0,ok,
+CF,receipts_customers,TTM_2026-09,864577507.0,ok,
+CF,short_term_investments_net,TTM_2026-09,,nd_component,"n.d. pada FY2025,9M25,9M26"
+CF,subsidiary_stake_purchase,TTM_2026-09,,nd_component,"n.d. pada FY2025,9M25"
+CF,sukuk_proceeds,TTM_2026-09,40250868.0,ok,
+CF,sukuk_repayments,TTM_2026-09,,nd_component,"n.d. pada FY2025,9M25,9M26"
+CF,tax_paid_corporate,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+CF,tax_refund_net,TTM_2026-09,-1239022.0,ok,
+CF,unsecured_loan_proceeds,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+CF,unsecured_loan_repayments,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+COGS_NOTE,cogs_note,TTM_2026-09,724204889.0,ok,
+COGS_NOTE,cost_of_production,TTM_2026-09,724204889.0,ok,
+COGS_NOTE,depreciation,TTM_2026-09,140465986.0,ok,
+COGS_NOTE,direct_labour,TTM_2026-09,60680764.0,ok,
+COGS_NOTE,freight_handling,TTM_2026-09,160548542.0,ok,
+COGS_NOTE,other_production_cost,TTM_2026-09,81922212.0,ok,
+COGS_NOTE,rent,TTM_2026-09,8238444.0,ok,
+COGS_NOTE,repair_maintenance,TTM_2026-09,18895091.0,ok,
+COGS_NOTE,services_cost,TTM_2026-09,253453850.0,ok,
+COGS_NOTE,total_production_cost,TTM_2026-09,724204889.0,ok,
+IS,associates_share,TTM_2026-09,3957385.0,ok,
+IS,ci_nci,TTM_2026-09,25704511.0,ok,
+IS,ci_parent,TTM_2026-09,44208788.0,ok,
+IS,cogs,TTM_2026-09,724204889.0,ok,
+IS,comprehensive_income,TTM_2026-09,69913299.0,ok,
+IS,eps_basic,TTM_2026-09,0.003,ok,
+IS,finance_expense,TTM_2026-09,31612769.0,ok,
+IS,finance_income,TTM_2026-09,13227233.0,ok,
+IS,fx_gain_loss,TTM_2026-09,8637255.0,ok,
+IS,ga_expense,TTM_2026-09,56129289.0,ok,
+IS,gross_profit,TTM_2026-09,153306585.0,ok,
+IS,oci_associates,TTM_2026-09,,nd_component,n.d. pada FY2025
+IS,oci_joint_venture,TTM_2026-09,,nd_component,"n.d. pada FY2025,9M25,9M26"
+IS,oci_nonreclass_adj,TTM_2026-09,,nd_component,n.d. pada FY2025
+IS,oci_nonreclass_total,TTM_2026-09,,nd_component,n.d. pada FY2025
+IS,oci_reclass_adj,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+IS,oci_reclass_total,TTM_2026-09,-15850162.0,ok,
+IS,oci_total,TTM_2026-09,-15803699.0,ok,
+IS,oci_translation,TTM_2026-09,,nd_component,n.d. pada FY2025
+IS,other_gains_losses,TTM_2026-09,3021507.0,ok,
+IS,other_income,TTM_2026-09,,nd_component,"n.d. pada 9M25,9M26"
+IS,profit_before_tax,TTM_2026-09,94894881.0,ok,
+IS,profit_continuing,TTM_2026-09,85716998.0,ok,
+IS,profit_nci,TTM_2026-09,25899574.0,ok,
+IS,profit_parent,TTM_2026-09,59817424.0,ok,
+IS,profit_period,TTM_2026-09,85716998.0,ok,
+IS,revenue,TTM_2026-09,877511474.0,ok,
+IS,tax_income_expense,TTM_2026-09,-9177883.0,ok,

@@ -1,0 +1,327 @@
+statement,line_key,line_label_id,parent,sign
+IS,revenue,Pendapatan usaha,gross_profit,1
+IS,cogs,Beban pokok pendapatan,gross_profit,-1
+IS,gross_profit,Laba bruto,profit_before_tax,1
+IS,ga_expense,Beban umum dan administrasi,profit_before_tax,-1
+IS,finance_income,Pendapatan keuangan,profit_before_tax,1
+IS,finance_expense,Beban bunga dan keuangan,profit_before_tax,-1
+IS,fx_gain_loss,Keuntungan (kerugian) selisih kurs mata uang asing,profit_before_tax,1
+IS,associates_share,Bagian laba (rugi) entitas asosiasi,profit_before_tax,1
+IS,other_income,Pendapatan lainnya,profit_before_tax,1
+IS,other_gains_losses,Keuntungan (kerugian) lainnya,profit_before_tax,1
+IS,profit_before_tax,Laba (rugi) sebelum pajak,profit_continuing,1
+IS,tax_income_expense,Pendapatan (beban) pajak,profit_continuing,1
+IS,profit_continuing,Laba (rugi) operasi yang dilanjutkan,,1
+IS,profit_period,Laba (rugi) periode berjalan,comprehensive_income,1
+IS,oci_nonreclass_adj,"Penyesuaian OCI yang tidak direklasifikasi, setelah pajak",,1
+IS,oci_nonreclass_total,"Jumlah OCI yang tidak direklasifikasi, setelah pajak",,1
+IS,oci_translation,"Selisih kurs penjabaran, setelah pajak",,1
+IS,oci_associates,"Bagian OCI entitas asosiasi, setelah pajak",,1
+IS,oci_joint_venture,"Bagian OCI ventura bersama, setelah pajak",,1
+IS,oci_reclass_adj,"Penyesuaian OCI yang akan direklasifikasi, setelah pajak",,1
+IS,oci_reclass_total,"Jumlah OCI yang akan direklasifikasi, setelah pajak",,1
+IS,oci_total,"Jumlah OCI, setelah pajak",comprehensive_income,1
+IS,comprehensive_income,Jumlah laba (rugi) komprehensif,,1
+IS,profit_parent,Laba (rugi) pemilik entitas induk,profit_period,1
+IS,profit_nci,Laba (rugi) kepentingan non-pengendali,profit_period,1
+IS,ci_parent,Laba komprehensif pemilik entitas induk,comprehensive_income#atribusi,1
+IS,ci_nci,Laba komprehensif kepentingan non-pengendali,comprehensive_income#atribusi,1
+IS,eps_basic,"EPS dasar, operasi dilanjutkan (USD/saham)",,1
+BS,cash,Kas dan setara kas,total_current_assets,1
+BS,other_fin_assets_current,Aset keuangan lancar lainnya,total_current_assets,1
+BS,trade_rec_third,Piutang usaha pihak ketiga,total_current_assets,1
+BS,trade_rec_related,Piutang usaha pihak berelasi,total_current_assets,1
+BS,other_rec_third,Piutang lainnya pihak ketiga,total_current_assets,1
+BS,other_rec_related,Piutang lainnya pihak berelasi,total_current_assets,1
+BS,inventories,Persediaan lancar,total_current_assets,1
+BS,prepaid_current,Biaya dibayar dimuka lancar,total_current_assets,1
+BS,advances_current,Uang muka lancar,total_current_assets,1
+BS,prepaid_tax_current,Pajak dibayar dimuka lancar,total_current_assets,1
+BS,assets_held_for_sale,Aset / kelompok lepasan dimiliki untuk dijual,total_current_assets,1
+BS,total_current_assets,Jumlah aset lancar,total_assets,1
+BS,investments_associates,Investasi pada entitas asosiasi,total_noncurrent_assets,1
+BS,advances_noncurrent,Uang muka tidak lancar,total_noncurrent_assets,1
+BS,other_fin_assets_noncurrent,Aset keuangan tidak lancar lainnya,total_noncurrent_assets,1
+BS,deferred_tax_assets,Aset pajak tangguhan,total_noncurrent_assets,1
+BS,investment_property,Properti investasi,total_noncurrent_assets,1
+BS,fixed_assets,Aset tetap,total_noncurrent_assets,1
+BS,post_employment_asset,Aset imbalan pasca kerja,total_noncurrent_assets,1
+BS,other_nonfin_assets_noncurrent,Aset tidak lancar non-keuangan lainnya,total_noncurrent_assets,1
+BS,total_noncurrent_assets,Jumlah aset tidak lancar,total_assets,1
+BS,total_assets,Jumlah aset,,1
+BS,bank_short_term,Utang bank jangka pendek,total_current_liabilities,1
+BS,trade_pay_third,Utang usaha pihak ketiga,total_current_liabilities,1
+BS,trade_pay_related,Utang usaha pihak berelasi,total_current_liabilities,1
+BS,other_pay_third,Utang lainnya pihak ketiga,total_current_liabilities,1
+BS,other_pay_related,Utang lainnya pihak berelasi,total_current_liabilities,1
+BS,accrued_expenses,Beban akrual jangka pendek,total_current_liabilities,1
+BS,taxes_payable,Utang pajak,total_current_liabilities,1
+BS,deferred_revenue_current,Pendapatan ditangguhkan jangka pendek,total_current_liabilities,1
+BS,bank_long_term_current,Utang bank jatuh tempo dalam satu tahun,total_current_liabilities,1
+BS,lease_current,Liabilitas sewa jatuh tempo dalam satu tahun,total_current_liabilities,1
+BS,sukuk_current,Sukuk jatuh tempo dalam satu tahun,total_current_liabilities,1
+BS,total_current_liabilities,Jumlah liabilitas jangka pendek,total_liabilities,1
+BS,deferred_tax_liabilities,Liabilitas pajak tangguhan,total_noncurrent_liabilities,1
+BS,bank_long_term,Utang bank jangka panjang,total_noncurrent_liabilities,1
+BS,lease_long_term,Liabilitas sewa jangka panjang,total_noncurrent_liabilities,1
+BS,sukuk_long_term,Sukuk jangka panjang,total_noncurrent_liabilities,1
+BS,post_employment_liability,Kewajiban imbalan pasca kerja jangka panjang,total_noncurrent_liabilities,1
+BS,total_noncurrent_liabilities,Jumlah liabilitas jangka panjang,total_liabilities,1
+BS,total_liabilities,Jumlah liabilitas,total_liabilities_equity,1
+BS,share_capital,Saham biasa,equity_parent,1
+BS,additional_paid_in_capital,Tambahan modal disetor,equity_parent,1
+BS,translation_reserve,Cadangan selisih kurs penjabaran,equity_parent,1
+BS,remeasurement_reserve,Cadangan pengukuran kembali program imbalan pasti,equity_parent,1
+BS,other_reserves,Cadangan lainnya,equity_parent,1
+BS,other_equity_components,Komponen ekuitas lainnya,equity_parent,1
+BS,retained_appropriated,Saldo laba yang telah ditentukan penggunaannya,equity_parent,1
+BS,retained_unappropriated,Saldo laba yang belum ditentukan penggunaannya,equity_parent,1
+BS,equity_parent,Ekuitas pemilik entitas induk,total_equity,1
+BS,equity_nci,Kepentingan non-pengendali,total_equity,1
+BS,total_equity,Jumlah ekuitas,total_liabilities_equity,1
+BS,total_liabilities_equity,Jumlah liabilitas dan ekuitas,,1
+CF,receipts_customers,Penerimaan dari pelanggan,cash_from_operations,1
+CF,payments_suppliers,Pembayaran kepada pemasok atas barang dan jasa,cash_from_operations,-1
+CF,payments_payroll,Pembayaran gaji dan tunjangan,cash_from_operations,-1
+CF,cash_from_operations,Kas diperoleh dari (digunakan untuk) operasi,cfo,1
+CF,interest_received,Penerimaan bunga dari aktivitas operasi,cfo,1
+CF,interest_paid,Pembayaran bunga dari aktivitas operasi,cfo,-1
+CF,tax_paid_corporate,Pembayaran pajak penghasilan badan,cfo,-1
+CF,tax_refund_net,Pengembalian (pembayaran) pajak penghasilan operasi,cfo,1
+CF,cfo,Arus kas bersih aktivitas operasi,net_change_cash,1
+CF,advances_fixed_assets,Pembayaran uang muka pembelian aset tetap,cfi,-1
+CF,proceeds_fixed_assets,Penerimaan dari penjualan aset tetap,cfi,1
+CF,capex_fixed_assets,Pembayaran untuk perolehan aset tetap,cfi,-1
+CF,short_term_investments_net,Pencairan (penempatan) investasi jangka pendek,cfi,1
+CF,fvtpl_assets_net,Pencairan (penempatan) aset keuangan FVTPL,cfi,1
+CF,subsidiary_stake_purchase,Pembayaran tambahan kepemilikan entitas anak,cfi,-1
+CF,associates_purchase,Pembayaran kepemilikan entitas asosiasi,cfi,-1
+CF,dividends_received,Penerimaan dividen dari aktivitas investasi,cfi,1
+CF,other_investing,Penerimaan (pengeluaran) kas lainnya dari aktivitas investasi,cfi,1
+CF,cfi,Arus kas bersih aktivitas investasi,net_change_cash,1
+CF,bank_loan_proceeds,Penerimaan pinjaman bank,cff,1
+CF,bank_loan_repayments,Pembayaran pinjaman bank,cff,-1
+CF,unsecured_loan_proceeds,Penerimaan pinjaman tanpa agunan,cff,1
+CF,unsecured_loan_repayments,Pembayaran pinjaman tanpa agunan,cff,-1
+CF,lease_payments,Pembayaran liabilitas sewa pembiayaan,cff,-1
+CF,sukuk_proceeds,Penerimaan sukuk,cff,1
+CF,sukuk_repayments,Pembayaran sukuk,cff,-1
+CF,dividends_paid,Pembayaran dividen dari aktivitas pendanaan,cff,-1
+CF,other_financing,Penerimaan (pengeluaran) kas lainnya dari aktivitas pendanaan,cff,1
+CF,cff,Arus kas bersih aktivitas pendanaan,net_change_cash,1
+CF,net_change_cash,Kenaikan (penurunan) bersih kas dan setara kas,cash_end,1
+CF,cash_begin,Kas dan setara kas awal periode,cash_end,1
+CF,fx_effect_cash,Efek perubahan nilai kurs pada kas dan setara kas,cash_end,1
+CF,cash_end,Kas dan setara kas akhir periode,,1
+COGS_NOTE,services_cost,Beban jasa,total_production_cost,1
+COGS_NOTE,freight_handling,Pengangkutan dan bongkar muat,total_production_cost,1
+COGS_NOTE,direct_labour,"Upah, tenaga kerja langsung",total_production_cost,1
+COGS_NOTE,depreciation,Depresiasi,total_production_cost,1
+COGS_NOTE,rent,Sewa,total_production_cost,1
+COGS_NOTE,repair_maintenance,Perbaikan dan pemeliharaan,total_production_cost,1
+COGS_NOTE,other_production_cost,Biaya pabrikasi lainya,total_production_cost,1
+COGS_NOTE,total_production_cost,Jumlah biaya produksi,,1
+COGS_NOTE,cost_of_production,Harga pokok produksi,,1
+COGS_NOTE,cogs_note,Beban pokok pendapatan,,1
+EQ,total.opening_pre,Ekuitas | Saldo awal periode sebelum penyajian kembali,,1
+EQ,total.opening,"Ekuitas | Posisi ekuitas, awal periode",total.closing,1
+EQ,total.profit,Ekuitas | Laba (rugi),total.closing,1
+EQ,total.oci,Ekuitas | Pendapatan komprehensif lainnya,total.closing,1
+EQ,total.dividends,Ekuitas | Distribusi dividen kas,total.closing,-1
+EQ,total.nci_acquisition,Ekuitas | Perubahan kepentingan non-pengendali atas akuisisi entitas anak,total.closing,1
+EQ,total.closing,"Ekuitas | Posisi ekuitas, akhir periode",,1
+EQ,parent.opening_pre,Ekuitas yang dapat diatribusikan kepada entitas induk | Saldo awal periode sebelum penyajian kembali,,1
+EQ,parent.opening,"Ekuitas yang dapat diatribusikan kepada entitas induk | Posisi ekuitas, awal periode",parent.closing,1
+EQ,parent.profit,Ekuitas yang dapat diatribusikan kepada entitas induk | Laba (rugi),parent.closing,1
+EQ,parent.oci,Ekuitas yang dapat diatribusikan kepada entitas induk | Pendapatan komprehensif lainnya,parent.closing,1
+EQ,parent.dividends,Ekuitas yang dapat diatribusikan kepada entitas induk | Distribusi dividen kas,parent.closing,-1
+EQ,parent.nci_acquisition,Ekuitas yang dapat diatribusikan kepada entitas induk | Perubahan kepentingan non-pengendali atas akuisisi entitas anak,parent.closing,1
+EQ,parent.closing,"Ekuitas yang dapat diatribusikan kepada entitas induk | Posisi ekuitas, akhir periode",,1
+EQ,nci.opening_pre,Kepentingan non-pengendali | Saldo awal periode sebelum penyajian kembali,,1
+EQ,nci.opening,"Kepentingan non-pengendali | Posisi ekuitas, awal periode",nci.closing,1
+EQ,nci.profit,Kepentingan non-pengendali | Laba (rugi),nci.closing,1
+EQ,nci.oci,Kepentingan non-pengendali | Pendapatan komprehensif lainnya,nci.closing,1
+EQ,nci.dividends,Kepentingan non-pengendali | Distribusi dividen kas,nci.closing,-1
+EQ,nci.closing,"Kepentingan non-pengendali | Posisi ekuitas, akhir periode",,1
+PPE,cost.land.opening,"Harga perolehan bruto / Tanah, dimiliki langsung | Saldo awal",cost.land.closing,1
+PPE,cost.land.additions,"Harga perolehan bruto / Tanah, dimiliki langsung | Penambahan",cost.land.closing,1
+PPE,cost.land.disposals,"Harga perolehan bruto / Tanah, dimiliki langsung | Pengurangan",cost.land.closing,-1
+PPE,cost.land.reclass,"Harga perolehan bruto / Tanah, dimiliki langsung | Reklasifikasi",cost.land.closing,1
+PPE,cost.land.translation,"Harga perolehan bruto / Tanah, dimiliki langsung | Penjabaran",cost.land.closing,1
+PPE,cost.land.impairment,"Harga perolehan bruto / Tanah, dimiliki langsung | Penurunan/pemulihan nilai",cost.land.closing,-1
+PPE,cost.land.closing,"Harga perolehan bruto / Tanah, dimiliki langsung | Saldo akhir",cost.owned.closing#komposisi,1
+PPE,cost.buildings.opening,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Saldo awal",cost.buildings.closing,1
+PPE,cost.buildings.additions,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Penambahan",cost.buildings.closing,1
+PPE,cost.buildings.disposals,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Pengurangan",cost.buildings.closing,-1
+PPE,cost.buildings.reclass,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Reklasifikasi",cost.buildings.closing,1
+PPE,cost.buildings.translation,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Penjabaran",cost.buildings.closing,1
+PPE,cost.buildings.impairment,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Penurunan/pemulihan nilai",cost.buildings.closing,-1
+PPE,cost.buildings.closing,"Harga perolehan bruto / Bangunan dan fasilitasnya, dimiliki langsung | Saldo akhir",cost.owned.closing#komposisi,1
+PPE,cost.machinery.opening,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Saldo awal",cost.machinery.closing,1
+PPE,cost.machinery.additions,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Penambahan",cost.machinery.closing,1
+PPE,cost.machinery.disposals,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Pengurangan",cost.machinery.closing,-1
+PPE,cost.machinery.reclass,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Reklasifikasi",cost.machinery.closing,1
+PPE,cost.machinery.translation,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Penjabaran",cost.machinery.closing,1
+PPE,cost.machinery.impairment,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Penurunan/pemulihan nilai",cost.machinery.closing,-1
+PPE,cost.machinery.closing,"Harga perolehan bruto / Mesin dan peralatan, dimiliki langsung | Saldo akhir",cost.owned.closing#komposisi,1
+PPE,cost.furniture.opening,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Saldo awal",cost.furniture.closing,1
+PPE,cost.furniture.additions,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Penambahan",cost.furniture.closing,1
+PPE,cost.furniture.disposals,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Pengurangan",cost.furniture.closing,-1
+PPE,cost.furniture.reclass,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Reklasifikasi",cost.furniture.closing,1
+PPE,cost.furniture.translation,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Penjabaran",cost.furniture.closing,1
+PPE,cost.furniture.impairment,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Penurunan/pemulihan nilai",cost.furniture.closing,-1
+PPE,cost.furniture.closing,"Harga perolehan bruto / Perabot dan peralatan kantor, dimiliki langsung | Saldo akhir",cost.owned.closing#komposisi,1
+PPE,cost.vessels.opening,"Harga perolehan bruto / Kapal, dimiliki langsung | Saldo awal",cost.vessels.closing,1
+PPE,cost.vessels.additions,"Harga perolehan bruto / Kapal, dimiliki langsung | Penambahan",cost.vessels.closing,1
+PPE,cost.vessels.disposals,"Harga perolehan bruto / Kapal, dimiliki langsung | Pengurangan",cost.vessels.closing,-1
+PPE,cost.vessels.reclass,"Harga perolehan bruto / Kapal, dimiliki langsung | Reklasifikasi",cost.vessels.closing,1
+PPE,cost.vessels.translation,"Harga perolehan bruto / Kapal, dimiliki langsung | Penjabaran",cost.vessels.closing,1
+PPE,cost.vessels.impairment,"Harga perolehan bruto / Kapal, dimiliki langsung | Penurunan/pemulihan nilai",cost.vessels.closing,-1
+PPE,cost.vessels.closing,"Harga perolehan bruto / Kapal, dimiliki langsung | Saldo akhir",cost.owned.closing#komposisi,1
+PPE,cost.owned_other.opening,"Harga perolehan bruto / Lainnya, dimiliki langsung | Saldo awal",cost.owned_other.closing,1
+PPE,cost.owned_other.additions,"Harga perolehan bruto / Lainnya, dimiliki langsung | Penambahan",cost.owned_other.closing,1
+PPE,cost.owned_other.disposals,"Harga perolehan bruto / Lainnya, dimiliki langsung | Pengurangan",cost.owned_other.closing,-1
+PPE,cost.owned_other.reclass,"Harga perolehan bruto / Lainnya, dimiliki langsung | Reklasifikasi",cost.owned_other.closing,1
+PPE,cost.owned_other.translation,"Harga perolehan bruto / Lainnya, dimiliki langsung | Penjabaran",cost.owned_other.closing,1
+PPE,cost.owned_other.impairment,"Harga perolehan bruto / Lainnya, dimiliki langsung | Penurunan/pemulihan nilai",cost.owned_other.closing,-1
+PPE,cost.owned_other.closing,"Harga perolehan bruto / Lainnya, dimiliki langsung | Saldo akhir",cost.owned.closing#komposisi,1
+PPE,cost.owned.opening,Harga perolehan bruto / Dimiliki langsung | Saldo awal,cost.owned.closing,1
+PPE,cost.owned.additions,Harga perolehan bruto / Dimiliki langsung | Penambahan,cost.owned.closing,1
+PPE,cost.owned.disposals,Harga perolehan bruto / Dimiliki langsung | Pengurangan,cost.owned.closing,-1
+PPE,cost.owned.reclass,Harga perolehan bruto / Dimiliki langsung | Reklasifikasi,cost.owned.closing,1
+PPE,cost.owned.translation,Harga perolehan bruto / Dimiliki langsung | Penjabaran,cost.owned.closing,1
+PPE,cost.owned.impairment,Harga perolehan bruto / Dimiliki langsung | Penurunan/pemulihan nilai,cost.owned.closing,-1
+PPE,cost.owned.closing,Harga perolehan bruto / Dimiliki langsung | Saldo akhir,cost.ppe.closing#komposisi,1
+PPE,cost.rou_other.opening,"Harga perolehan bruto / Lainnya, aset hak guna | Saldo awal",cost.rou_other.closing,1
+PPE,cost.rou_other.additions,"Harga perolehan bruto / Lainnya, aset hak guna | Penambahan",cost.rou_other.closing,1
+PPE,cost.rou_other.disposals,"Harga perolehan bruto / Lainnya, aset hak guna | Pengurangan",cost.rou_other.closing,-1
+PPE,cost.rou_other.reclass,"Harga perolehan bruto / Lainnya, aset hak guna | Reklasifikasi",cost.rou_other.closing,1
+PPE,cost.rou_other.translation,"Harga perolehan bruto / Lainnya, aset hak guna | Penjabaran",cost.rou_other.closing,1
+PPE,cost.rou_other.impairment,"Harga perolehan bruto / Lainnya, aset hak guna | Penurunan/pemulihan nilai",cost.rou_other.closing,-1
+PPE,cost.rou_other.closing,"Harga perolehan bruto / Lainnya, aset hak guna | Saldo akhir",cost.rou.closing#komposisi,1
+PPE,cost.rou_vehicles.opening,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Saldo awal",cost.rou_vehicles.closing,1
+PPE,cost.rou_vehicles.additions,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Penambahan",cost.rou_vehicles.closing,1
+PPE,cost.rou_vehicles.disposals,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Pengurangan",cost.rou_vehicles.closing,-1
+PPE,cost.rou_vehicles.reclass,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Reklasifikasi",cost.rou_vehicles.closing,1
+PPE,cost.rou_vehicles.translation,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Penjabaran",cost.rou_vehicles.closing,1
+PPE,cost.rou_vehicles.impairment,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Penurunan/pemulihan nilai",cost.rou_vehicles.closing,-1
+PPE,cost.rou_vehicles.closing,"Harga perolehan bruto / Alat pengangkutan, aset hak guna | Saldo akhir",cost.rou.closing#komposisi,1
+PPE,cost.rou_buildings.opening,"Harga perolehan bruto / Bangunan, aset hak guna | Saldo awal",cost.rou_buildings.closing,1
+PPE,cost.rou_buildings.additions,"Harga perolehan bruto / Bangunan, aset hak guna | Penambahan",cost.rou_buildings.closing,1
+PPE,cost.rou_buildings.disposals,"Harga perolehan bruto / Bangunan, aset hak guna | Pengurangan",cost.rou_buildings.closing,-1
+PPE,cost.rou_buildings.reclass,"Harga perolehan bruto / Bangunan, aset hak guna | Reklasifikasi",cost.rou_buildings.closing,1
+PPE,cost.rou_buildings.translation,"Harga perolehan bruto / Bangunan, aset hak guna | Penjabaran",cost.rou_buildings.closing,1
+PPE,cost.rou_buildings.impairment,"Harga perolehan bruto / Bangunan, aset hak guna | Penurunan/pemulihan nilai",cost.rou_buildings.closing,-1
+PPE,cost.rou_buildings.closing,"Harga perolehan bruto / Bangunan, aset hak guna | Saldo akhir",cost.rou.closing#komposisi,1
+PPE,cost.rou_vessels.opening,"Harga perolehan bruto / Kapal, aset hak guna | Saldo awal",cost.rou_vessels.closing,1
+PPE,cost.rou_vessels.additions,"Harga perolehan bruto / Kapal, aset hak guna | Penambahan",cost.rou_vessels.closing,1
+PPE,cost.rou_vessels.disposals,"Harga perolehan bruto / Kapal, aset hak guna | Pengurangan",cost.rou_vessels.closing,-1
+PPE,cost.rou_vessels.reclass,"Harga perolehan bruto / Kapal, aset hak guna | Reklasifikasi",cost.rou_vessels.closing,1
+PPE,cost.rou_vessels.translation,"Harga perolehan bruto / Kapal, aset hak guna | Penjabaran",cost.rou_vessels.closing,1
+PPE,cost.rou_vessels.impairment,"Harga perolehan bruto / Kapal, aset hak guna | Penurunan/pemulihan nilai",cost.rou_vessels.closing,-1
+PPE,cost.rou_vessels.closing,"Harga perolehan bruto / Kapal, aset hak guna | Saldo akhir",cost.rou.closing#komposisi,1
+PPE,cost.rou.opening,Harga perolehan bruto / Aset hak guna | Saldo awal,cost.rou.closing,1
+PPE,cost.rou.additions,Harga perolehan bruto / Aset hak guna | Penambahan,cost.rou.closing,1
+PPE,cost.rou.disposals,Harga perolehan bruto / Aset hak guna | Pengurangan,cost.rou.closing,-1
+PPE,cost.rou.reclass,Harga perolehan bruto / Aset hak guna | Reklasifikasi,cost.rou.closing,1
+PPE,cost.rou.translation,Harga perolehan bruto / Aset hak guna | Penjabaran,cost.rou.closing,1
+PPE,cost.rou.impairment,Harga perolehan bruto / Aset hak guna | Penurunan/pemulihan nilai,cost.rou.closing,-1
+PPE,cost.rou.closing,Harga perolehan bruto / Aset hak guna | Saldo akhir,cost.ppe.closing#komposisi,1
+PPE,cost.cip_other.opening,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Saldo awal",cost.cip_other.closing,1
+PPE,cost.cip_other.additions,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Penambahan",cost.cip_other.closing,1
+PPE,cost.cip_other.disposals,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Pengurangan",cost.cip_other.closing,-1
+PPE,cost.cip_other.reclass,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Reklasifikasi",cost.cip_other.closing,1
+PPE,cost.cip_other.translation,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Penjabaran",cost.cip_other.closing,1
+PPE,cost.cip_other.impairment,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Penurunan/pemulihan nilai",cost.cip_other.closing,-1
+PPE,cost.cip_other.closing,"Harga perolehan bruto / Lainnya, dalam penyelesaian | Saldo akhir",cost.cip.closing#komposisi,1
+PPE,cost.cip.opening,Harga perolehan bruto / Aset dalam penyelesaian | Saldo awal,cost.cip.closing,1
+PPE,cost.cip.additions,Harga perolehan bruto / Aset dalam penyelesaian | Penambahan,cost.cip.closing,1
+PPE,cost.cip.disposals,Harga perolehan bruto / Aset dalam penyelesaian | Pengurangan,cost.cip.closing,-1
+PPE,cost.cip.reclass,Harga perolehan bruto / Aset dalam penyelesaian | Reklasifikasi,cost.cip.closing,1
+PPE,cost.cip.translation,Harga perolehan bruto / Aset dalam penyelesaian | Penjabaran,cost.cip.closing,1
+PPE,cost.cip.impairment,Harga perolehan bruto / Aset dalam penyelesaian | Penurunan/pemulihan nilai,cost.cip.closing,-1
+PPE,cost.cip.closing,Harga perolehan bruto / Aset dalam penyelesaian | Saldo akhir,cost.ppe.closing#komposisi,1
+PPE,cost.ppe.opening,Harga perolehan bruto / Aset tetap | Saldo awal,cost.ppe.closing,1
+PPE,cost.ppe.additions,Harga perolehan bruto / Aset tetap | Penambahan,cost.ppe.closing,1
+PPE,cost.ppe.disposals,Harga perolehan bruto / Aset tetap | Pengurangan,cost.ppe.closing,-1
+PPE,cost.ppe.reclass,Harga perolehan bruto / Aset tetap | Reklasifikasi,cost.ppe.closing,1
+PPE,cost.ppe.translation,Harga perolehan bruto / Aset tetap | Penjabaran,cost.ppe.closing,1
+PPE,cost.ppe.impairment,Harga perolehan bruto / Aset tetap | Penurunan/pemulihan nilai,cost.ppe.closing,-1
+PPE,cost.ppe.closing,Harga perolehan bruto / Aset tetap | Saldo akhir,,1
+PPE,acc.land.opening,"Akumulasi depresiasi / Tanah, dimiliki langsung | Saldo awal",acc.land.closing,1
+PPE,acc.land.additions,"Akumulasi depresiasi / Tanah, dimiliki langsung | Penambahan",acc.land.closing,1
+PPE,acc.land.disposals,"Akumulasi depresiasi / Tanah, dimiliki langsung | Pengurangan",acc.land.closing,-1
+PPE,acc.land.reclass,"Akumulasi depresiasi / Tanah, dimiliki langsung | Reklasifikasi",acc.land.closing,1
+PPE,acc.land.translation,"Akumulasi depresiasi / Tanah, dimiliki langsung | Penjabaran",acc.land.closing,1
+PPE,acc.land.impairment,"Akumulasi depresiasi / Tanah, dimiliki langsung | Penurunan/pemulihan nilai",acc.land.closing,-1
+PPE,acc.land.closing,"Akumulasi depresiasi / Tanah, dimiliki langsung | Saldo akhir",acc.owned.closing#komposisi,1
+PPE,acc.buildings.opening,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Saldo awal",acc.buildings.closing,1
+PPE,acc.buildings.additions,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Penambahan",acc.buildings.closing,1
+PPE,acc.buildings.disposals,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Pengurangan",acc.buildings.closing,-1
+PPE,acc.buildings.reclass,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Reklasifikasi",acc.buildings.closing,1
+PPE,acc.buildings.translation,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Penjabaran",acc.buildings.closing,1
+PPE,acc.buildings.impairment,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Penurunan/pemulihan nilai",acc.buildings.closing,-1
+PPE,acc.buildings.closing,"Akumulasi depresiasi / Bangunan dan fasilitasnya, dimiliki langsung | Saldo akhir",acc.owned.closing#komposisi,1
+PPE,acc.machinery.opening,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Saldo awal",acc.machinery.closing,1
+PPE,acc.machinery.additions,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Penambahan",acc.machinery.closing,1
+PPE,acc.machinery.disposals,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Pengurangan",acc.machinery.closing,-1
+PPE,acc.machinery.reclass,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Reklasifikasi",acc.machinery.closing,1
+PPE,acc.machinery.translation,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Penjabaran",acc.machinery.closing,1
+PPE,acc.machinery.impairment,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Penurunan/pemulihan nilai",acc.machinery.closing,-1
+PPE,acc.machinery.closing,"Akumulasi depresiasi / Mesin dan peralatan, dimiliki langsung | Saldo akhir",acc.owned.closing#komposisi,1
+PPE,acc.furniture.opening,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Saldo awal",acc.furniture.closing,1
+PPE,acc.furniture.additions,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Penambahan",acc.furniture.closing,1
+PPE,acc.furniture.disposals,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Pengurangan",acc.furniture.closing,-1
+PPE,acc.furniture.reclass,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Reklasifikasi",acc.furniture.closing,1
+PPE,acc.furniture.translation,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Penjabaran",acc.furniture.closing,1
+PPE,acc.furniture.impairment,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Penurunan/pemulihan nilai",acc.furniture.closing,-1
+PPE,acc.furniture.closing,"Akumulasi depresiasi / Perabot dan peralatan kantor, dimiliki langsung | Saldo akhir",acc.owned.closing#komposisi,1
+PPE,acc.vessels.opening,"Akumulasi depresiasi / Kapal, dimiliki langsung | Saldo awal",acc.vessels.closing,1
+PPE,acc.vessels.additions,"Akumulasi depresiasi / Kapal, dimiliki langsung | Penambahan",acc.vessels.closing,1
+PPE,acc.vessels.disposals,"Akumulasi depresiasi / Kapal, dimiliki langsung | Pengurangan",acc.vessels.closing,-1
+PPE,acc.vessels.reclass,"Akumulasi depresiasi / Kapal, dimiliki langsung | Reklasifikasi",acc.vessels.closing,1
+PPE,acc.vessels.translation,"Akumulasi depresiasi / Kapal, dimiliki langsung | Penjabaran",acc.vessels.closing,1
+PPE,acc.vessels.impairment,"Akumulasi depresiasi / Kapal, dimiliki langsung | Penurunan/pemulihan nilai",acc.vessels.closing,-1
+PPE,acc.vessels.closing,"Akumulasi depresiasi / Kapal, dimiliki langsung | Saldo akhir",acc.owned.closing#komposisi,1
+PPE,acc.owned_other.opening,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Saldo awal",acc.owned_other.closing,1
+PPE,acc.owned_other.additions,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Penambahan",acc.owned_other.closing,1
+PPE,acc.owned_other.disposals,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Pengurangan",acc.owned_other.closing,-1
+PPE,acc.owned_other.reclass,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Reklasifikasi",acc.owned_other.closing,1
+PPE,acc.owned_other.translation,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Penjabaran",acc.owned_other.closing,1
+PPE,acc.owned_other.impairment,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Penurunan/pemulihan nilai",acc.owned_other.closing,-1
+PPE,acc.owned_other.closing,"Akumulasi depresiasi / Lainnya, dimiliki langsung | Saldo akhir",acc.owned.closing#komposisi,1
+PPE,acc.owned.opening,Akumulasi depresiasi / Dimiliki langsung | Saldo awal,acc.owned.closing,1
+PPE,acc.owned.additions,Akumulasi depresiasi / Dimiliki langsung | Penambahan,acc.owned.closing,1
+PPE,acc.owned.disposals,Akumulasi depresiasi / Dimiliki langsung | Pengurangan,acc.owned.closing,-1
+PPE,acc.owned.reclass,Akumulasi depresiasi / Dimiliki langsung | Reklasifikasi,acc.owned.closing,1
+PPE,acc.owned.translation,Akumulasi depresiasi / Dimiliki langsung | Penjabaran,acc.owned.closing,1
+PPE,acc.owned.impairment,Akumulasi depresiasi / Dimiliki langsung | Penurunan/pemulihan nilai,acc.owned.closing,-1
+PPE,acc.owned.closing,Akumulasi depresiasi / Dimiliki langsung | Saldo akhir,acc.ppe.closing#komposisi,1
+PPE,acc.cip_other.opening,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Saldo awal",acc.cip_other.closing,1
+PPE,acc.cip_other.additions,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Penambahan",acc.cip_other.closing,1
+PPE,acc.cip_other.disposals,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Pengurangan",acc.cip_other.closing,-1
+PPE,acc.cip_other.reclass,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Reklasifikasi",acc.cip_other.closing,1
+PPE,acc.cip_other.translation,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Penjabaran",acc.cip_other.closing,1
+PPE,acc.cip_other.impairment,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Penurunan/pemulihan nilai",acc.cip_other.closing,-1
+PPE,acc.cip_other.closing,"Akumulasi depresiasi / Lainnya, dalam penyelesaian | Saldo akhir",acc.cip.closing#komposisi,1
+PPE,acc.cip.opening,Akumulasi depresiasi / Aset dalam penyelesaian | Saldo awal,acc.cip.closing,1
+PPE,acc.cip.additions,Akumulasi depresiasi / Aset dalam penyelesaian | Penambahan,acc.cip.closing,1
+PPE,acc.cip.disposals,Akumulasi depresiasi / Aset dalam penyelesaian | Pengurangan,acc.cip.closing,-1
+PPE,acc.cip.reclass,Akumulasi depresiasi / Aset dalam penyelesaian | Reklasifikasi,acc.cip.closing,1
+PPE,acc.cip.translation,Akumulasi depresiasi / Aset dalam penyelesaian | Penjabaran,acc.cip.closing,1
+PPE,acc.cip.impairment,Akumulasi depresiasi / Aset dalam penyelesaian | Penurunan/pemulihan nilai,acc.cip.closing,-1
+PPE,acc.cip.closing,Akumulasi depresiasi / Aset dalam penyelesaian | Saldo akhir,acc.ppe.closing#komposisi,1
+PPE,acc.ppe.opening,Akumulasi depresiasi / Aset tetap | Saldo awal,acc.ppe.closing,1
+PPE,acc.ppe.additions,Akumulasi depresiasi / Aset tetap | Penambahan,acc.ppe.closing,1
+PPE,acc.ppe.disposals,Akumulasi depresiasi / Aset tetap | Pengurangan,acc.ppe.closing,-1
+PPE,acc.ppe.reclass,Akumulasi depresiasi / Aset tetap | Reklasifikasi,acc.ppe.closing,1
+PPE,acc.ppe.translation,Akumulasi depresiasi / Aset tetap | Penjabaran,acc.ppe.closing,1
+PPE,acc.ppe.impairment,Akumulasi depresiasi / Aset tetap | Penurunan/pemulihan nilai,acc.ppe.closing,-1
+PPE,acc.ppe.closing,Akumulasi depresiasi / Aset tetap | Saldo akhir,,1
+PPE,nbv.ppe.opening,Nilai buku bersih / Aset tetap | Saldo awal,,1
+PPE,nbv.ppe.closing,Nilai buku bersih / Aset tetap | Saldo akhir,,1
+DEBT_NOTE,bank_st_idr,Utang bank jangka pendek: jumlah kotor | Bank lokal lainnya / IDR,bank_st_total,1
+DEBT_NOTE,bank_st_usd,Utang bank jangka pendek: jumlah kotor | Bank lokal lainnya / USD,bank_st_total,1
+DEBT_NOTE,bank_st_total,Utang bank jangka pendek: jumlah kotor | Bank lokal lainnya / Mata uang,,1
+DEBT_NOTE,bank_lt_current,Utang bank jangka panjang | Current maturities of bank loans,,1
+DEBT_NOTE,bank_lt_noncurrent,Utang bank jangka panjang | Long-term bank loans,,1

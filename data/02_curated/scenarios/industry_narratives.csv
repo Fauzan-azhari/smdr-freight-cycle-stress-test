@@ -1,0 +1,5 @@
+narrative_id,kisah,rantai,tarif,volume,bulan,jangkar_tarif,jangkar_volume,status
+IN01,Permintaan melemah,perdagangan melemah -> ton-mil turun -> volume dan tarif tertekan,-0.06,-0.05,12,Tarif hub Surabaya FY2023 (-6%),Volume hub Jakarta FY2023 (-5%),anchored
+IN02,Kelebihan kapasitas,armada tumbuh lebih cepat dari permintaan -> tarif turun saat volume bertahan,-0.12,0.0,24,Tarif efektif FY2024 (-11.6%) dari pendapatan angkutan terealisasi,Volume kontainer FY2024 (+0.5%),anchored
+IN03,Rute kembali normal,jarak angkut turun -> kapasitas efektif naik -> tarif turun (bagi penyewa-masuk bersih biaya sewa ikut turun),-0.10,0.0,12,Tarif hub Surabaya FY2024 (-10%),Volume tetap (asumsi),assumed
+IN04,Permintaan lemah dan kelebihan kapasitas,penurunan perdagangan bersamaan dengan kelebihan armada (pola depresi),-0.12,-0.05,24,Gabungan IN02 dan IN01,Volume hub Jakarta FY2023 (-5%),anchored

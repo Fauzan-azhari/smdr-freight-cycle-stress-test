@@ -1,0 +1,8 @@
+file_id,period,file,start,end,audit,sha256,hash_check
+F01,FY2022,FinancialStatement-2022-Tahunan-SMDR.xlsx,2022-01-01,2022-12-31,Diaudit / Audited,89fd390e0a20217c6810e3689df665461f698fe413acab857af8213be6328eed,OK
+F02,FY2023,FinancialStatement-2023-Tahunan-SMDR.xlsx,2023-01-01,2023-12-31,Diaudit / Audited,843f468a43058c88ced604d704b281a412190edfab93411bd83fce272894a9ea,OK
+F03,FY2024,FinancialStatement-2024-Tahunan-SMDR.xlsx,2024-01-01,2024-12-31,Diaudit / Audited,5311036f1f235da1486a66c715eccc6bda638e4ef730488a26407869d1904a19,OK
+F04,FY2025,FinancialStatement-2025-Tahunan-SMDR.xlsx,2025-01-01,2025-12-31,Diaudit / Audited,fe64cf538ddcafed840307def5b4ea10bf7d966bce6cc6a6865c3363e1f959fe,OK
+F05,3M26,FinancialStatement-2026-I-SMDR.xlsx,2026-01-01,2026-03-31,Tidak Diaudit / Unaudit,1750696667cb2cd3ad4d91eb59280ea862afd6c95b5a58a4215c8b4f3f8b7baf,OK
+F06,6M26,FinancialStatement-2026-II-SMDR.xlsx,2026-01-01,2026-06-30,Tidak Diaudit / Unaudit,db2e04a4dc95a95c3b7e5f273ab43f0cec2bedd3bb77bfa46f42ce98d72c7410,OK
+F07,9M26,FinancialStatement-2026-III-SMDR.xlsx,2026-01-01,2026-09-30,Tidak Diaudit / Unaudit,2fe1a4750dde73854768f49862246ac0e38d09817b328e720ce2749015d708e0,OK

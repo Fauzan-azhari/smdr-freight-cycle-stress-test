@@ -1,0 +1,7 @@
+legacy_id,metric,value,unit,source,note
+LB01,revenue_ttm,877511474,USD,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9.1,TTM Okt-2025 s.d. Sep-2026
+LB02,ebit_ttm,97177296,USD,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9.1,EBIT = laba bruto - beban umum dan administrasi
+LB03,ebitda_ttm_legacy,237643282,USD,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9.1,EBITDA legacy = EBIT + depresiasi pada beban pokok
+LB04,fixed_obligations_ttm,173842395,USD,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9.1,Utang bank + sewa + sukuk jatuh tempo <1 tahun (neraca Sep-2026) + beban bunga dan keuangan TTM
+LB05,fixed_charge_cover,1.3670,x,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9.1,EBITDA legacy / kewajiban tetap
+LB06,cash_consolidated,342283444,USD,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9.1,Kas dan setara kas konsolidasi 30 Sep 2026

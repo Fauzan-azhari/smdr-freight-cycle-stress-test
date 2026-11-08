@@ -1,0 +1,518 @@
+dataset,column,dtype,n_missing,n_unique,example,description,description_status
+DCOILBRENTEU.csv,observation_date,object,0,1517,2021-01-04,,otomatis
+DCOILBRENTEU.csv,DCOILBRENTEU,float64,46,1261,50.37,,otomatis
+backtest.csv,periode,object,0,3,FY2023,FY2023-FY2025,kurasi
+backtest.csv,tarif_efektif,float64,0,3,-0.472031,perubahan tarif efektif,kurasi
+backtest.csv,volume,float64,0,3,0.073684,perubahan volume,kurasi
+backtest.csv,model,float64,0,3,-454.258366,"perubahan EBITDA yang diprediksi model, USD juta",kurasi
+backtest.csv,terealisasi,float64,0,3,-238.707876,"perubahan EBITDA aktual, USD juta",kurasi
+backtest.csv,selisih_pct,float64,0,3,90.29886,"prediksi terhadap aktual, persen",kurasi
+backtest.csv,galat_pct,float64,0,3,90.29886,"galat prediksi, persen",kurasi
+backtest.csv,biaya_jasa_delta,float64,0,3,-165.506292,"perubahan biaya jasa, USD juta",kurasi
+baseline_bridge.csv,metric,object,0,8,revenue_ttm,,otomatis
+baseline_bridge.csv,legacy_value,float64,0,6,877511474.0,,otomatis
+baseline_bridge.csv,tidy_value,float64,0,6,877511474.0,,otomatis
+baseline_bridge.csv,definition_adjustment,float64,0,3,0.0,,otomatis
+baseline_bridge.csv,reconciled_value,float64,0,8,877511474.0,,otomatis
+baseline_bridge.csv,difference,float64,0,4,0.0,,otomatis
+baseline_bridge.csv,difference_reason,object,0,3,identik dengan benchmark (definisi sama),,otomatis
+baseline_bridge.csv,source_ids,object,0,8,"fs_long: IS.revenue; periode FY2025, 9M25, 9M26",,otomatis
+baseline_bridge.csv,zero_fill_rules,object,6,1,Z01,,otomatis
+baseline_bridge.csv,status,object,0,3,reproduced,,otomatis
+baseline_quarters.csv,statement,object,0,3,CF,,otomatis
+baseline_quarters.csv,line_key,object,0,71,advances_fixed_assets,,otomatis
+baseline_quarters.csv,quarter,object,0,7,2025Q1,,otomatis
+baseline_quarters.csv,value_usd,float64,107,341,1380640.0,,otomatis
+baseline_quarters.csv,status,object,0,2,derived,,otomatis
+baseline_quarters.csv,method,object,0,7,3M25,,otomatis
+baseline_ttm.csv,statement,object,0,3,CF,,otomatis
+baseline_ttm.csv,line_key,object,0,71,advances_fixed_assets,,otomatis
+baseline_ttm.csv,window,object,0,1,TTM_2026-09,,otomatis
+baseline_ttm.csv,value_usd,float64,18,48,2604791.0,,otomatis
+baseline_ttm.csv,status,object,0,3,ok,,otomatis
+baseline_ttm.csv,reason,object,53,6,n.d. pada 9M26,,otomatis
+brent_daily_fred.csv,observation_date,object,0,10295,1987-05-20,,otomatis
+brent_daily_fred.csv,DCOILBRENTEU,float64,1173,5390,18.63,,otomatis
+capex_milestones.csv,milestone_id,object,0,4,MS-CT1,,otomatis
+capex_milestones.csv,project_id,object,0,3,PRJ-CT1,,otomatis
+capex_milestones.csv,amount,int64,0,3,228298000000,,otomatis
+capex_milestones.csv,currency,object,0,1,IDR,,otomatis
+capex_milestones.csv,amount_basis,object,0,2,alokasi penggunaan dana,,otomatis
+capex_milestones.csv,total_cost_version,object,0,1,S3 2026-05-18,,otomatis
+capex_milestones.csv,payment_trigger,float64,4,0,,,otomatis
+capex_milestones.csv,contractual_due_date,float64,4,0,,,otomatis
+capex_milestones.csv,expected_due_date,float64,4,0,,,otomatis
+capex_milestones.csv,paid_amount,float64,4,0,,,otomatis
+capex_milestones.csv,remaining_amount,float64,4,0,,,otomatis
+capex_milestones.csv,evidence_id,object,0,3,EV-S3-CT-UNIT,,otomatis
+capex_milestones.csv,note,object,1,1,termin dan tanggal pembayaran belum tersedia,,otomatis
+cash_assumptions.csv,assumption_id,object,0,11,AS-K01,,otomatis
+cash_assumptions.csv,parameter,object,0,11,ocf_conversion,,otomatis
+cash_assumptions.csv,description,object,0,11,rasio kas operasi sebelum bunga terhadap EBITDA operasi,,otomatis
+cash_assumptions.csv,low,float64,0,10,0.86,,otomatis
+cash_assumptions.csv,central,float64,0,9,0.9,,otomatis
+cash_assumptions.csv,high,float64,0,9,1.0,,otomatis
+cash_assumptions.csv,adverse_rule,object,0,2,low,,otomatis
+cash_assumptions.csv,status,object,0,2,assumed,,otomatis
+cash_assumptions.csv,basis,object,0,11,"Kas operasi sebelum bunga TTM Sep-2026 = USD 216,4 juta (aru",,otomatis
+cash_assumptions.csv,evidence_ref,object,0,9,fs_long CF; GAP08,,otomatis
+cash_paths_monthly.csv,skenario,object,0,6,Permintaan melemah,nama skenario,kurasi
+cash_paths_monthly.csv,case,object,0,2,central,central atau adverse,kurasi
+cash_paths_monthly.csv,month,object,0,63,2026-10,YYYY-MM,kurasi
+cash_paths_monthly.csv,ocf,float64,0,114,13.772412,arus kas operasi,kurasi
+cash_paths_monthly.csv,interest_income,float64,0,736,1.140945,pendapatan bunga,kurasi
+cash_paths_monthly.csv,sukuk_coupon,float64,0,31,-0.610345,imbal hasil sukuk,kurasi
+cash_paths_monthly.csv,other_interest,float64,0,28,-2.260973,bunga pinjaman lain,kurasi
+cash_paths_monthly.csv,lease,float64,0,2,-8.5,pembayaran sewa,kurasi
+cash_paths_monthly.csv,maintenance_capex,float64,0,2,-5.833333,belanja pemeliharaan,kurasi
+cash_paths_monthly.csv,program_capex,float64,0,5,-0.0,belanja program kapal baru,kurasi
+cash_paths_monthly.csv,bank_repay,float64,0,1,-2.433582,angsuran utang bank,kurasi
+cash_paths_monthly.csv,short_bank_repay,float64,0,2,0.0,pelunasan pinjaman jangka pendek,kurasi
+cash_paths_monthly.csv,dividend,float64,0,2,0.0,dividen,kurasi
+cash_paths_monthly.csv,sukuk_principal,float64,0,7,0.0,pokok sukuk jatuh tempo,kurasi
+cash_paths_monthly.csv,refi_draw,float64,0,1,0.0,pencairan pembiayaan ulang,kurasi
+cash_paths_monthly.csv,refi_service,float64,0,1,0.0,pelayanan pembiayaan ulang,kurasi
+cash_paths_monthly.csv,bank_redraw,float64,0,1,2.433582,penarikan ulang utang bank,kurasi
+cash_paths_monthly.csv,ebitda,float64,0,112,15.30268,"EBITDA bulanan, USD juta",kurasi
+cash_paths_monthly.csv,bank_balance,float64,0,1,211.121902,saldo utang bank,kurasi
+cash_paths_monthly.csv,fx_translation,float64,0,40,-0.544018,selisih translasi kurs,kurasi
+cash_paths_monthly.csv,opening,float64,0,735,342.283444,kas awal bulan,kurasi
+cash_paths_monthly.csv,floor_intramonth,float64,0,738,322.645211,kas terendah dalam bulan,kurasi
+cash_paths_monthly.csv,closing,float64,0,746,339.448131,"kas akhir bulan, USD juta",kurasi
+cash_paths_monthly.csv,net_flow,float64,0,745,-2.291295,arus kas bersih,kurasi
+cash_paths_monthly.csv,reserve,float64,0,2,168.71387,deposito entitas anak yang dapat ditarik,kurasi
+cash_paths_monthly.csv,liquidity,float64,0,746,508.162001,"kas + deposito, USD juta",kurasi
+cash_paths_monthly.csv,fx,float64,0,39,18125.0,kurs USD/IDR (IDR per USD),kurasi
+cash_tornado.csv,parameter,object,0,8,maintenance_capex,,otomatis
+cash_tornado.csv,label,object,0,8,Belanja modal pemeliharaan,,otomatis
+cash_tornado.csv,central,float64,0,7,70.0,,otomatis
+cash_tornado.csv,adverse,float64,0,8,87.0,,otomatis
+cash_tornado.csv,d_min_liq,float64,0,8,-90.105423,,otomatis
+covenant_quarterly.csv,skenario,object,0,6,Permintaan melemah,nama skenario,kurasi
+covenant_quarterly.csv,case,object,0,2,central,central atau adverse,kurasi
+covenant_quarterly.csv,quarter,object,0,9,2026-12,akhir kuartal YYYY-MM,kurasi
+covenant_quarterly.csv,ebitda_ttm,float64,0,73,225.941409,"EBITDA 12 bulan, USD juta",kurasi
+covenant_quarterly.csv,nd,float64,0,79,2.272575,"Net Debt to EBITDA (bank + sukuk + sewa, tanpa dikurangi kas)",kurasi
+covenant_quarterly.csv,dscr_bank,float64,0,73,2.474756,DSCR basis dilaporkan,kurasi
+covenant_quarterly.csv,dscr_with_sukuk,float64,0,88,2.474756,DSCR dengan pokok sukuk per kuartal,kurasi
+covenant_quarterly.csv,debt,float64,0,2,513.468831,"utang total, USD juta",kurasi
+covenant_suite.csv,skenario,object,0,10,Dasar,,otomatis
+covenant_suite.csv,case,object,0,2,central,,otomatis
+covenant_suite.csv,fy,object,0,4,FY2027,,otomatis
+covenant_suite.csv,ebitda,float64,0,32,236.09743897692093,,otomatis
+covenant_suite.csv,cover,float64,0,42,1.297353411374244,,otomatis
+covenant_suite.csv,nd_ebitda,float64,0,42,2.174817453442148,,otomatis
+covenant_suite.csv,icr,float64,0,32,7.468420086102579,,otomatis
+covenant_suite.csv,current_ratio,float64,0,80,1.9322099423214367,,otomatis
+covenant_suite.csv,liquidity,float64,0,80,430.7127248672702,,otomatis
+covenant_suite.csv,penyebut,float64,0,4,181.9839042368807,,otomatis
+covenant_suite.csv,kelompok,object,0,2,Macro,,otomatis
+covenant_suite.csv,cure_den,float64,0,10,0.0,,otomatis
+data_gaps.csv,gap_id,object,0,13,GAP01,,otomatis
+data_gaps.csv,scope_id,object,0,12,"PRJ-CT1,PRJ-CT2,PRJ-CV1",,otomatis
+data_gaps.csv,required_field,object,0,13,"termin pembayaran, mata uang kontrak galangan, dan sisa komi",,otomatis
+data_gaps.csv,reason,object,0,13,"dokumen sukuk hanya memuat alokasi dana, bukan jadwal pembay",,otomatis
+data_gaps.csv,priority,object,0,3,tinggi,,otomatis
+data_gaps.csv,requested_from,object,0,12,Project/Treasury,,otomatis
+data_gaps.csv,fallback,object,0,13,"skenario termin (merata, awal, akhir) berlabel asumsi",,otomatis
+data_gaps.csv,affected_output,object,0,13,"jalur kas bulanan, kebutuhan pendanaan puncak",,otomatis
+data_gaps.csv,resolution_status,object,0,2,open,,otomatis
+decisions.csv,decision_id,object,0,10,D01,,otomatis
+decisions.csv,topic,object,0,10,ebitda_basis,,otomatis
+decisions.csv,decision,object,0,9,pdf_audit,,otomatis
+decisions.csv,description,object,0,10,Basis depresiasi beban pokok FY2025 untuk EBITDA operasi mem,,otomatis
+decisions.csv,reference,object,0,5,KE-LK-01,,otomatis
+decisions.csv,decided_by,object,0,1,pengguna,,otomatis
+decisions.csv,decided_on,object,0,1,2026-11-05,,otomatis
+emerging_risk_evidence.csv,risk_id,object,0,8,ER1,,otomatis
+emerging_risk_evidence.csv,sumber,object,0,15,SIRI mengutip CNBC,,otomatis
+emerging_risk_evidence.csv,berkas,object,9,7,Research/Global Sentiment - SIRI/Container Ship Sinks Follow,,otomatis
+emerging_risk_evidence.csv,token,object,9,8,The sinking of GFS Pride,,otomatis
+emerging_risk_evidence.csv,tanggal,object,0,14,2026-10-15,,otomatis
+emerging_risk_evidence.csv,sinyal,object,0,19,Kapal peti kemas 2.824 TEU tenggelam setelah terkena proyekt,,otomatis
+emerging_risk_evidence.csv,verifikasi,object,0,4,berkas,,otomatis
+emerging_risk_evidence.csv,url,object,11,8,https://www.bimco.org/news-insights/market-analysis/shipping,,otomatis
+emerging_risk_evidence.csv,halaman,float64,16,1,14.0,,otomatis
+emerging_risk_evidence.csv,diakses,object,11,1,2026-11-06,,otomatis
+emerging_risk_evidence.csv,pdf_page,float64,9,3,1.0,,otomatis
+emerging_risk_evidence_src.csv,risk_id,object,0,8,ER1,,otomatis
+emerging_risk_evidence_src.csv,sumber,object,0,15,SIRI mengutip CNBC,,otomatis
+emerging_risk_evidence_src.csv,berkas,object,9,7,Research/Global Sentiment - SIRI/Container Ship Sinks Follow,,otomatis
+emerging_risk_evidence_src.csv,token,object,9,8,The sinking of GFS Pride,,otomatis
+emerging_risk_evidence_src.csv,tanggal,object,0,14,2026-10-15,,otomatis
+emerging_risk_evidence_src.csv,sinyal,object,0,19,Kapal peti kemas 2.824 TEU tenggelam setelah terkena proyekt,,otomatis
+emerging_risk_evidence_src.csv,verifikasi,object,0,4,berkas,,otomatis
+emerging_risk_evidence_src.csv,url,object,11,8,https://www.bimco.org/news-insights/market-analysis/shipping,,otomatis
+emerging_risk_evidence_src.csv,halaman,float64,16,1,14.0,,otomatis
+emerging_risk_evidence_src.csv,diakses,object,11,1,2026-11-06,,otomatis
+emerging_risks.csv,risk_id,object,0,8,ER1,,otomatis
+emerging_risks.csv,risiko,object,0,8,Keamanan maritim Timur Tengah dan Hormuz,,otomatis
+emerging_risks.csv,kelompok,object,0,4,Pasar pelayaran,,otomatis
+emerging_risks.csv,saluran,object,0,8,harga energi dan bunker naik; layanan ke Jebel Ali terganggu,,otomatis
+emerging_risks.csv,horizon_min,int64,0,4,0,,otomatis
+emerging_risks.csv,horizon_max,int64,0,6,12,,otomatis
+emerging_risks.csv,kecepatan,object,0,3,cepat,,otomatis
+emerging_risks.csv,indikator_dini,object,0,8,Brent; Indeks Baltic Dirty Tanker; status layanan Jebel Ali;,,otomatis
+emerging_risks.csv,status_uji,object,0,3,sebagian,,otomatis
+emerging_risks.csv,tautan,object,4,4,macro:Energi bertahan,,otomatis
+entities.csv,entity_id,object,0,5,SMDR,,otomatis
+entities.csv,entity_name,object,0,5,PT Samudera Indonesia Tbk,,otomatis
+entities.csv,parent_id,object,1,1,SMDR,,otomatis
+entities.csv,ownership_pct,float64,4,1,21.0,,otomatis
+entities.csv,accounting_method,object,0,2,konsolidasi penuh,,otomatis
+entities.csv,functional_currency,object,4,1,USD,,otomatis
+entities.csv,consolidation_scope,object,0,5,induk dan penerbit sukuk,,otomatis
+entities.csv,evidence_id,object,1,4,EV-S3-OUTSTANDING,,otomatis
+entities.csv,note,object,1,3,persentase kepemilikan belum diverifikasi,,otomatis
+evidence.csv,evidence_id,object,0,44,EV-LK25-GA-DEP,,otomatis
+evidence.csv,source_id,object,0,9,LK2025,,otomatis
+evidence.csv,locator,object,0,20,"PDF97 (cetak 84), Catatan 28",,otomatis
+evidence.csv,claim,object,0,44,Penyusutan (Catatan 12 dan 13) dalam beban umum dan administ,,otomatis
+evidence.csv,entity_id,object,0,5,SMDR_consolidated,,otomatis
+evidence.csv,project_id,object,33,5,PRJ-CT,,otomatis
+evidence.csv,metric,object,0,19,ga_depreciation,,otomatis
+evidence.csv,value,object,0,43,2313014,,otomatis
+evidence.csv,unit,object,0,6,amount,,otomatis
+evidence.csv,currency,object,17,2,USD,,otomatis
+evidence.csv,effective_date,object,0,12,2025-12-31,,otomatis
+evidence.csv,period,object,30,6,FY2025,,otomatis
+evidence.csv,evidence_status,object,0,1,reported,,otomatis
+evidence.csv,acceptance_status,object,0,2,usable,,otomatis
+evidence.csv,conflict_group_id,object,42,1,CG-COGSDEP-FY2025,,otomatis
+financing_events.csv,event_id,object,0,38,FE001,ID peristiwa,kurasi
+financing_events.csv,facility_id,object,0,3,S2,"fasilitas (S1B, S2, S3 = seri sukuk)",kurasi
+financing_events.csv,event_type,object,0,2,coupon,coupon atau principal,kurasi
+financing_events.csv,contractual_date,object,0,35,2026-10-04,tanggal kontrak,kurasi
+financing_events.csv,payment_date,object,0,35,2026-10-05,tanggal bayar (hari kerja berikutnya),kurasi
+financing_events.csv,amount,float64,0,6,11062500000.0,nilai dalam mata uang peristiwa,kurasi
+financing_events.csv,currency,object,0,1,IDR,IDR,kurasi
+financing_events.csv,status,object,0,1,scheduled,scheduled,kurasi
+financing_events.csv,payment_date_basis,object,0,1,assumed_weekend_only,dasar penyesuaian tanggal bayar,kurasi
+financing_facilities.csv,facility_id,object,0,3,S1B,,otomatis
+financing_facilities.csv,facility_name,object,0,3,Tahap I 2023 Seri B,,otomatis
+financing_facilities.csv,borrower_id,object,0,1,SMDR,,otomatis
+financing_facilities.csv,facility_type,object,0,1,sukuk_ijarah,,otomatis
+financing_facilities.csv,currency,object,0,1,IDR,,otomatis
+financing_facilities.csv,nominal_limit,int64,0,3,339175000000,,otomatis
+financing_facilities.csv,outstanding_asof,int64,0,3,339175000000,,otomatis
+financing_facilities.csv,asof_date,object,0,2,2026-05-18,,otomatis
+financing_facilities.csv,committed_status,object,0,1,issued,,otomatis
+financing_facilities.csv,issue_date,object,0,3,2023-08-02,,otomatis
+financing_facilities.csv,permitted_use,object,0,3,refinancing dan pembelian kapal dry bulk (Tahap I),,otomatis
+financing_facilities.csv,rate_type,object,0,1,fixed,,otomatis
+financing_facilities.csv,fixed_rate,float64,0,3,0.0945,,otomatis
+financing_facilities.csv,annual_coupon_amount,int64,0,3,32052037500,,otomatis
+financing_facilities.csv,day_count,object,0,1,30/360,,otomatis
+financing_facilities.csv,payment_frequency,object,0,1,quarterly,,otomatis
+financing_facilities.csv,first_principal_date,object,0,3,2028-08-02,,otomatis
+financing_facilities.csv,first_coupon_date,object,0,3,2023-11-02,,otomatis
+financing_facilities.csv,maturity_date,object,0,3,2028-08-02,,otomatis
+financing_facilities.csv,repayment_pattern,object,0,1,bullet,,otomatis
+financing_facilities.csv,payment_rule,object,0,1,next_business_day,,otomatis
+financing_facilities.csv,eca_status,object,0,1,not_disclosed,,otomatis
+financing_facilities.csv,evidence_id,object,0,3,EV-S1B-NOMINAL,,otomatis
+financing_facilities.csv,note,object,0,2,tanggal terbit diturunkan dari tanggal imbalan pertama (tiga,,otomatis
+fs_checks.csv,check_id,object,0,83,SUM:IS:gross_profit,,otomatis
+fs_checks.csv,statement,object,0,13,IS,,otomatis
+fs_checks.csv,period,object,0,11,3M25,,otomatis
+fs_checks.csv,description,object,0,75,gross_profit = jumlah komponen,,otomatis
+fs_checks.csv,expected,int64,0,398,36929087,,otomatis
+fs_checks.csv,actual,int64,0,400,36929087,,otomatis
+fs_checks.csv,diff,int64,0,3,0,,otomatis
+fs_checks.csv,nd_terms,int64,0,7,0,,otomatis
+fs_checks.csv,status,object,0,2,PASS,,otomatis
+fs_checks.csv,note,object,695,3,"Sel 3510000!C72 pada file IDX F07 (9M26, kolom pembanding 9M",,otomatis
+fs_known_exceptions.csv,check_id,object,0,3,SUM:CF:cfi,,otomatis
+fs_known_exceptions.csv,period,object,0,2,9M25,,otomatis
+fs_known_exceptions.csv,explanation,object,0,3,"Sel 3510000!C72 pada file IDX F07 (9M26, kolom pembanding 9M",,otomatis
+fs_line_dictionary.csv,statement,object,0,7,IS,,otomatis
+fs_line_dictionary.csv,line_key,object,0,326,revenue,,otomatis
+fs_line_dictionary.csv,line_label_id,object,0,325,Pendapatan usaha,,otomatis
+fs_line_dictionary.csv,parent,object,29,58,gross_profit,,otomatis
+fs_line_dictionary.csv,sign,int64,0,2,1,,otomatis
+fs_long.csv,statement,object,0,7,IS,"laporan: IS laba rugi, BS posisi keuangan, CF arus kas, COGS_NOTE, EQ ekuitas, PPE aset tetap, DEBT_NOTE utang bank",kurasi
+fs_long.csv,line_key,object,0,299,revenue,kunci baris kanonik (fs_line_dictionary.csv),kurasi
+fs_long.csv,line_label_id,object,0,298,Pendapatan usaha,label baris berbahasa Indonesia,kurasi
+fs_long.csv,period,object,0,11,FY2021,"periode: FY2021-FY2025, 3M/6M/9M 2025 dan 2026",kurasi
+fs_long.csv,basis,object,0,3,fy,"fy tahunan, ytd kumulatif sejak 1 Januari, instant saldo pada tanggal",kurasi
+fs_long.csv,period_start,object,424,6,2021-01-01,awal periode (kosong untuk basis instant),kurasi
+fs_long.csv,period_end,object,0,11,2021-12-31,akhir periode,kurasi
+fs_long.csv,value_usd,float64,449,1552,672918136.0,nilai USD penuh; kosong bila status nd (n.d. bukan nol),kurasi
+fs_long.csv,status,object,0,2,reported,"reported dilaporkan, nd tidak diungkapkan pada sumber",kurasi
+fs_long.csv,source_file_id,object,449,7,F01,berkas IDX asal,kurasi
+fs_long.csv,source_sheet,object,449,12,3311000,sheet asal,kurasi
+fs_long.csv,source_cell,object,449,432,C5,sel asal,kurasi
+fs_long.csv,workbook_cell,object,0,2605,'Laba Rugi'!D10,sel pada workbook kurasi,kurasi
+fs_source_manifest.csv,file_id,object,0,7,F01,,otomatis
+fs_source_manifest.csv,period,object,0,7,FY2022,,otomatis
+fs_source_manifest.csv,file,object,0,7,FinancialStatement-2022-Tahunan-SMDR.xlsx,,otomatis
+fs_source_manifest.csv,start,object,0,5,2022-01-01,,otomatis
+fs_source_manifest.csv,end,object,0,7,2022-12-31,,otomatis
+fs_source_manifest.csv,audit,object,0,2,Diaudit / Audited,,otomatis
+fs_source_manifest.csv,sha256,object,0,7,89fd390e0a20217c6810e3689df665461f698fe413acab857af8213be632,,otomatis
+fs_source_manifest.csv,hash_check,object,0,1,OK,,otomatis
+historical_test.csv,index,object,0,4,FY2022,,otomatis
+historical_test.csv,ebitda,float64,0,4,458.292762,,otomatis
+historical_test.csv,nd,float64,0,4,1.120395,,otomatis
+idx_line_items.csv,file_id,object,0,7,F01,"ID berkas IDX (F01-F07, lihat fs_source_manifest.csv)",kurasi
+idx_line_items.csv,file_period,object,0,7,FY2022,periode laporan pada berkas,kurasi
+idx_line_items.csv,source_sheet,object,0,18,1000000,nama sheet pada berkas IDX,kurasi
+idx_line_items.csv,source_cell,object,0,527,B7,alamat sel pada berkas IDX,kurasi
+idx_line_items.csv,source_label,object,3,199,Kode entitas,uraian butir pada sumber,kurasi
+idx_line_items.csv,source_context,object,6,192,Entity code,konteks atau komponen (label Inggris sumber),kurasi
+idx_line_items.csv,source_value,object,0,1732,SMDR,"nilai persis seperti pada sumber, disimpan sebagai teks",kurasi
+idx_line_items.csv,unit,object,0,4,Sesuai metadata,satuan nilai,kurasi
+idx_line_items.csv,basis,object,0,3,Metadata,Berjalan atau Pembanding atau Metadata,kurasi
+idx_line_items.csv,period_start,object,886,6,2022-01-01,awal periode butir,kurasi
+idx_line_items.csv,period_end,object,0,11,2022-12-31,akhir periode butir,kurasi
+industry_narratives.csv,narrative_id,object,0,4,IN01,,otomatis
+industry_narratives.csv,kisah,object,0,4,Permintaan melemah,,otomatis
+industry_narratives.csv,rantai,object,0,4,perdagangan melemah -> ton-mil turun -> volume dan tarif ter,,otomatis
+industry_narratives.csv,tarif,float64,0,3,-0.06,,otomatis
+industry_narratives.csv,volume,float64,0,2,-0.05,,otomatis
+industry_narratives.csv,bulan,int64,0,2,12,,otomatis
+industry_narratives.csv,jangkar_tarif,object,0,4,Tarif hub Surabaya FY2023 (-6%),,otomatis
+industry_narratives.csv,jangkar_volume,object,0,3,Volume hub Jakarta FY2023 (-5%),,otomatis
+industry_narratives.csv,status,object,0,2,anchored,,otomatis
+known_exceptions.csv,exception_id,object,0,11,KE-LK-01,,otomatis
+known_exceptions.csv,check_id,object,0,11,SOURCE_CONFLICT:cogs_depreciation:FY2025,,otomatis
+known_exceptions.csv,scope_id,object,0,11,COGS_NOTE.depreciation FY2025,,otomatis
+known_exceptions.csv,reason,object,0,11,"Depresiasi pada biaya jasa FY2025: PDF audit 96.603.808, Exc",,otomatis
+known_exceptions.csv,source_id,object,0,10,LK2025;F04,,otomatis
+known_exceptions.csv,impact,object,0,11,"EBITDA FY2025 dan TTM berbeda USD 98.385 (sekitar 0,04%) men",,otomatis
+known_exceptions.csv,approved_handling,object,0,11,Diputuskan pengguna 2026-11-05 (D01): EBITDA operasi memakai,,otomatis
+known_exceptions.csv,review_date,object,0,2,2026-11-05,,otomatis
+legacy_benchmark.csv,legacy_id,object,0,6,LB01,,otomatis
+legacy_benchmark.csv,metric,object,0,6,revenue_ttm,,otomatis
+legacy_benchmark.csv,value,float64,0,6,877511474.0,,otomatis
+legacy_benchmark.csv,unit,object,0,2,USD,,otomatis
+legacy_benchmark.csv,source,object,0,1,Adjustment/SMDR_Research_Adjustment_Architecture.md bagian 9,,otomatis
+legacy_benchmark.csv,note,object,0,6,TTM Okt-2025 s.d. Sep-2026,,otomatis
+legacy_decisions.csv,legacy_id,object,0,28,LD01,,otomatis
+legacy_decisions.csv,legacy_path,object,0,24,model/data/fs_primary.csv,,otomatis
+legacy_decisions.csv,metric,object,0,28,IS/BS/CF FY2021-9M26,,otomatis
+legacy_decisions.csv,disposition,object,0,12,retain+extend,,otomatis
+legacy_decisions.csv,new_target,object,0,16,data/tidy/fs_long.csv,,otomatis
+legacy_decisions.csv,reason,object,0,28,"Sumber keuangan utama model baru; diperluas dengan ekuitas, ",,otomatis
+legacy_decisions.csv,expected_impact,object,0,28,Kas dan covenant tidak lengkap,,otomatis
+legacy_decisions.csv,verification_step,object,0,18,698 cek integritas; fs_legacy_check 1.042 dari 1.046 cocok,,otomatis
+macro_anchors.csv,driver,object,0,4,brent,,otomatis
+macro_anchors.csv,month,object,0,2,2026-10,,otomatis
+macro_anchors.csv,value,float64,0,4,124.8,,otomatis
+macro_anchors.csv,unit,object,0,3,USD/barel,,otomatis
+macro_anchors.csv,source,object,0,3,data pasar: rata-rata harian hingga 27 Okt 2026 (bulan parsi,,otomatis
+macro_anchors.csv,note,object,0,4,pembacaan lain: OCE sekitar USD118 pada akhir Oktober; berbe,,otomatis
+macro_checks.csv,check_id,object,0,12,FX:no_gap,,otomatis
+macro_checks.csv,description,object,0,12,deret bulan kurs tanpa celah,,otomatis
+macro_checks.csv,n_tested,int64,0,6,83,,otomatis
+macro_checks.csv,n_fail,int64,0,4,0,,otomatis
+macro_checks.csv,status,object,0,3,PASS,,otomatis
+macro_checks.csv,detail,object,9,3,"2020-04,2020-05,2020-12 | Sumber kurs: penutupan berada di b",,otomatis
+macro_daily.csv,series,object,0,1,brent_usd_bbl,seri harian (brent_usd_bbl),kurasi
+macro_daily.csv,date,object,0,1517,2021-01-04,tanggal,kurasi
+macro_daily.csv,value,float64,46,1261,50.37,USD per barel; kosong bila libur (status nd),kurasi
+macro_daily.csv,status,object,0,2,reported,reported atau nd,kurasi
+macro_daily.csv,source_file,object,0,1,DCOILBRENTEU.csv,berkas mentah asal,kurasi
+macro_daily.csv,source_line,int64,0,1517,2,nomor baris pada berkas mentah,kurasi
+macro_forecast_vintages.csv,vintage_id,object,0,7,OCE-2026-10,,otomatis
+macro_forecast_vintages.csv,provider,object,0,2,OCE Bank Mandiri,,otomatis
+macro_forecast_vintages.csv,as_of_date,object,0,7,2026-10-06,,otomatis
+macro_forecast_vintages.csv,source_id,object,0,5,OCE-MEI,,otomatis
+macro_forecast_vintages.csv,locator,object,0,6,hal. 46,,otomatis
+macro_forecast_vintages.csv,variable,object,0,11,gdp_growth,,otomatis
+macro_forecast_vintages.csv,horizon,object,0,5,2026F,,otomatis
+macro_forecast_vintages.csv,value,float64,0,20,5.34,,otomatis
+macro_forecast_vintages.csv,unit,object,0,4,% yoy,,otomatis
+macro_forecast_vintages.csv,evidence_status,object,0,3,forecast,,otomatis
+macro_forecast_vintages.csv,acceptance_status,object,0,2,usable,,otomatis
+macro_forecast_vintages.csv,note,object,20,3,proyeksi Indonesia; dikutip pada Monthly Economic Insights,,otomatis
+macro_ifrs9_vintage.csv,vintage_id,object,0,1,IFRS9-MAY26,,otomatis
+macro_ifrs9_vintage.csv,scenario,object,0,3,baseline,,otomatis
+macro_ifrs9_vintage.csv,variable,object,0,4,gdp_growth,,otomatis
+macro_ifrs9_vintage.csv,quarter,object,0,20,1Q26,,otomatis
+macro_ifrs9_vintage.csv,value,float64,0,186,5.608453472469965,,otomatis
+macro_ifrs9_vintage.csv,source_id,object,0,1,OCE-IFRS9,,otomatis
+macro_known_exceptions.csv,check_id,object,0,1,FX:ohlc,,otomatis
+macro_known_exceptions.csv,explanation,object,0,1,Sumber kurs: penutupan berada di bawah nilai terendah bulan ,,otomatis
+macro_monthly.csv,series,object,0,3,brent_avg,"usdidr_close, brent_avg (rata-rata bulanan), brent_eom (akhir bulan)",kurasi
+macro_monthly.csv,month,object,0,83,2021-01,YYYY-MM,kurasi
+macro_monthly.csv,value,float64,0,215,54.774,nilai seri,kurasi
+macro_monthly.csv,n_obs,int64,0,7,20,jumlah observasi dalam bulan,kurasi
+macro_monthly.csv,last_obs_date,object,83,70,2021-01-29,observasi terakhir pada bulan itu,kurasi
+macro_monthly.csv,partial,bool,0,2,False,True bila bulan belum lengkap,kurasi
+macro_monthly.csv,source_file,object,0,2,DCOILBRENTEU.csv,berkas mentah asal,kurasi
+macro_monthly_wide.csv,month,object,0,83,2020-01,YYYY-MM,kurasi
+macro_monthly_wide.csv,usdidr_close,float64,0,75,13650.0,"IDR per USD, penutupan bulan",kurasi
+macro_monthly_wide.csv,brent_avg,float64,13,70,54.774,"USD per barel, rata-rata bulan",kurasi
+macro_monthly_wide.csv,brent_eom,float64,13,70,55.25,"USD per barel, akhir bulan",kurasi
+macro_monthly_wide.csv,partial_any,bool,0,2,False,True bila ada seri parsial pada bulan itu,kurasi
+macro_scenario_definitions.csv,scenario_id,object,0,6,MS-BASE,,otomatis
+macro_scenario_definitions.csv,driver,object,0,4,brent,,otomatis
+macro_scenario_definitions.csv,path_type,object,0,4,hold_then_decay,,otomatis
+macro_scenario_definitions.csv,target,object,21,3,2026-12:18118;2027-12:17722,,otomatis
+macro_scenario_definitions.csv,magnitude,float64,18,5,6.9,,otomatis
+macro_scenario_definitions.csv,magnitude_unit,object,18,2,pct,,otomatis
+macro_scenario_definitions.csv,ramp_months,float64,18,1,6.0,,otomatis
+macro_scenario_definitions.csv,hold_months,float64,14,5,3.0,,otomatis
+macro_scenario_definitions.csv,retrace_fraction,float64,18,2,0.5,,otomatis
+macro_scenario_definitions.csv,retrace_months,float64,18,1,12.0,,otomatis
+macro_scenario_definitions.csv,assumption_id,object,0,12,AS-B01,,otomatis
+macro_scenario_definitions.csv,basis,object,0,15,"Ditahan tiga bulan pada level Oktober, lalu turun mengikuti ",,otomatis
+macro_scenario_definitions.csv,status,object,0,5,precedent,,otomatis
+macro_source_manifest.csv,file,object,0,2,data/01_raw/fx/usdidr_monthly_provider.csv,,otomatis
+macro_source_manifest.csv,series,object,0,2,usdidr_close,,otomatis
+macro_source_manifest.csv,frequency,object,0,2,bulanan,,otomatis
+macro_source_manifest.csv,unit,object,0,2,IDR per USD,,otomatis
+macro_source_manifest.csv,rows,int64,0,2,83,,otomatis
+macro_source_manifest.csv,first_date,object,0,2,2020-01-01,,otomatis
+macro_source_manifest.csv,last_date,object,0,2,2026-11-01,,otomatis
+macro_source_manifest.csv,sha256,object,0,2,a5cdc5e2bc9a2dd763d7385c7b4f93cf463507d2e6b64a7843f39d57f2f3,,otomatis
+macro_source_manifest.csv,note,object,0,2,Kolom Terakhir = penutupan bulan. Angka format Indonesia (ti,,otomatis
+mitigation_tests.csv,skenario,object,0,6,Permintaan melemah,,otomatis
+mitigation_tests.csv,case,object,0,2,central,,otomatis
+mitigation_tests.csv,paydown,float64,0,2,54.0,,otomatis
+mitigation_tests.csv,dividend_stop,bool,0,2,False,,otomatis
+mitigation_tests.csv,nd_FY2027,float64,0,22,2.323657,,otomatis
+mitigation_tests.csv,nd_FY2028,float64,0,20,1.83453,,otomatis
+mitigation_tests.csv,current_ratio_min,float64,0,36,1.520287,,otomatis
+mitigation_tests.csv,current_ratio_min_fy,object,0,3,FY2029,,otomatis
+mitigation_tests.csv,min_liquidity,float64,0,36,266.399811,,otomatis
+mitigations.csv,mitigation_id,object,0,4,MT01,,otomatis
+mitigations.csv,tuas,object,0,4,Tunda belanja modal pemeliharaan,,otomatis
+mitigations.csv,trigger_metric,object,0,2,kas akhir bulan di bawah dua bulan biaya operasi tunai,,otomatis
+mitigations.csv,trigger_value,object,0,2,USD 106 juta,,otomatis
+mitigations.csv,owner,object,0,4,Direktur Teknik/Operasi dan Direktur Keuangan,,otomatis
+mitigations.csv,approval_role,object,0,3,Direksi,,otomatis
+mitigations.csv,lead_time_months,object,0,4,2,,otomatis
+mitigations.csv,cash_cost,object,0,4,Dibayar kembali dalam 24 bulan setelah penundaan; risiko kon,,otomatis
+mitigations.csv,benefit_rule,object,0,4,Menunda 30% belanja modal pemeliharaan selama 24 bulan,,otomatis
+mitigations.csv,capacity_limit,object,0,4,30% (batas keselamatan dan kelas; asumsi),,otomatis
+mitigations.csv,availability_status,object,0,2,assumed,,otomatis
+mitigations.csv,assumption_ref,object,0,4,AS-M01,,otomatis
+network_exposure.csv,item,object,0,14,services_indonesia,,otomatis
+network_exposure.csv,value,float64,6,8,7.0,,otomatis
+network_exposure.csv,unit,object,0,6,layanan,,otomatis
+network_exposure.csv,scope,object,0,11,hub Singapura ke pelabuhan utama Indonesia,,otomatis
+network_exposure.csv,pdf_page,int64,0,8,10,,otomatis
+network_exposure.csv,token,object,0,14,We operate 7 services from the Singapore hub covering Indone,,otomatis
+network_exposure.csv,note,object,1,12,frekuensi 1 sampai 3 pelayaran per minggu; per 1 Maret 2026,,otomatis
+network_exposure.csv,source,object,0,1,"Samudera Shipping Line Ltd, Annual Report 2025",,otomatis
+network_exposure.csv,source_url,object,0,1,https://samudera.listedcompany.com/newsroom/20260409_182038_,,otomatis
+opening_balance_2026-09-30.csv,statement,object,0,1,BS,,otomatis
+opening_balance_2026-09-30.csv,line_key,object,0,53,accrued_expenses,,otomatis
+opening_balance_2026-09-30.csv,as_of,object,0,1,2026-09-30,,otomatis
+opening_balance_2026-09-30.csv,value_usd,float64,2,50,56838590.0,,otomatis
+operating_assumptions.csv,assumption_id,object,0,7,AS-O01,,otomatis
+operating_assumptions.csv,parameter,object,0,7,vessel_energy_share,,otomatis
+operating_assumptions.csv,description,object,0,7,pangsa konsumsi energi konvensional yang merupakan bunker ka,,otomatis
+operating_assumptions.csv,low,float64,0,7,0.8,,otomatis
+operating_assumptions.csv,central,float64,0,7,0.9,,otomatis
+operating_assumptions.csv,high,float64,0,5,1.0,,otomatis
+operating_assumptions.csv,adverse_rule,object,0,4,high,,otomatis
+operating_assumptions.csv,status,object,0,1,assumed,,otomatis
+operating_assumptions.csv,basis,object,0,7,"Konsumsi energi grup mencakup kapal, kendaraan (342 truk), d",,otomatis
+operating_assumptions.csv,evidence_ref,object,0,4,GAP09,,otomatis
+operating_checks.csv,check_id,object,0,18,TOKEN,,otomatis
+operating_checks.csv,description,object,0,18,token teks tercetak pada halaman yang dikutip,,otomatis
+operating_checks.csv,n_tested,int64,0,9,303,,otomatis
+operating_checks.csv,n_fail,int64,0,1,0,,otomatis
+operating_checks.csv,status,object,0,2,PASS,,otomatis
+operating_checks.csv,detail,object,13,5,FY2022 2.8%; FY2023 3.6%; FY2024 4.8%; FY2025 4.6%,,otomatis
+operating_dictionary.csv,metric_key,object,0,13,segment_revenue,,otomatis
+operating_dictionary.csv,scope,object,0,9,segment,,otomatis
+operating_dictionary.csv,unit,object,0,10,USD juta,,otomatis
+operating_dictionary.csv,definition,object,0,13,"Pendapatan lini bisnis (Shipping, Logistics, Ports, Services",,otomatis
+operating_dictionary.csv,caveat,object,0,13,Jumlah keempat lini melebihi pendapatan konsolidasi; pangsa ,,otomatis
+operating_long.csv,domain,object,0,13,segment_revenue,,otomatis
+operating_long.csv,metric_key,object,0,52,segment_revenue,,otomatis
+operating_long.csv,scope,object,0,30,shipping,,otomatis
+operating_long.csv,period,object,0,8,FY2021,,otomatis
+operating_long.csv,value,float64,0,288,555.5,,otomatis
+operating_long.csv,unit,object,0,13,USD juta,,otomatis
+operating_long.csv,source_id,object,0,9,AR2021,,otomatis
+operating_long.csv,pdf_page,int64,0,33,63,,otomatis
+operating_long.csv,printed_page,float64,166,19,59.0,,otomatis
+operating_long.csv,source_token,object,0,288,555.5,,otomatis
+operating_long.csv,series_role,object,0,3,preferred,,otomatis
+operating_long.csv,acceptance_status,object,0,3,usable,,otomatis
+operating_long.csv,conflict_group_id,object,293,5,CG-SHIP-FY2022,,otomatis
+operating_long.csv,note,object,17,68,pendapatan lini sebelum eliminasi antar-segmen,,otomatis
+project_aliases.csv,alias_id,object,0,8,AL01,,otomatis
+project_aliases.csv,project_id,object,2,5,PRJ-CT1,,otomatis
+project_aliases.csv,source_id,object,0,2,N-KONTAN,,otomatis
+project_aliases.csv,source_group,object,0,5,lima kapal dikontrak: dua chemical tanker,,otomatis
+project_aliases.csv,match_status,object,0,4,candidate,,otomatis
+project_aliases.csv,match_basis,object,0,6,"jenis, jumlah, dan negara galangan sama dengan alokasi dana ",,otomatis
+project_status.csv,project_id,object,0,5,PRJ-CT1,,otomatis
+project_status.csv,status,object,0,2,negotiating,,otomatis
+project_status.csv,status_date,object,0,3,2026-05-18,,otomatis
+project_status.csv,source_id,object,0,3,S3,,otomatis
+project_status.csv,evidence_id,object,0,4,EV-S3-CT-QUOTE,,otomatis
+project_status.csv,acceptance_status,object,0,2,usable,,otomatis
+project_status.csv,note,object,2,4,penawaran harga 12 Feb 2026; perjanjian definitif belum ada,,otomatis
+projects.csv,project_id,object,0,7,PRJ-CT1,,otomatis
+projects.csv,entity_id,object,0,5,SPKLI,,otomatis
+projects.csv,project_type,object,0,3,kapal_baru,,otomatis
+projects.csv,vessel_class,object,0,4,chemical tanker,,otomatis
+projects.csv,capacity_value,float64,3,2,4000.0,,otomatis
+projects.csv,capacity_unit,object,3,2,DWT,,otomatis
+projects.csv,builder,object,2,3,Zhoushan Ningshing Ship Building & Repairing,,otomatis
+projects.csv,contract_reference,float64,7,0,,,otomatis
+projects.csv,status,object,0,2,contracted,,otomatis
+projects.csv,status_date,object,0,3,2026-10-30,,otomatis
+projects.csv,expected_delivery,object,2,2,sekitar 18 bulan setelah dana diterima (indikasi akhir 2027),,otomatis
+projects.csv,expected_operations,float64,7,0,,,otomatis
+projects.csv,baseline_inclusion,object,2,2,unknown,,otomatis
+projects.csv,evidence_id,object,0,5,EV-S3-CT-UNIT,,otomatis
+projects.csv,note,object,2,4,status kontrak berasal dari pemberitaan; perjanjian definiti,,otomatis
+scenario_results.csv,skenario,object,0,6,Permintaan melemah,nama skenario,kurasi
+scenario_results.csv,kelompok,object,0,2,Market,Market atau Macro,kurasi
+scenario_results.csv,case,object,0,2,central,central (asumsi tengah) atau adverse (downside case arus kas),kurasi
+scenario_results.csv,ebitda_FY2026,float64,0,9,233.789991,EBITDA USD juta,kurasi
+scenario_results.csv,ebitda_FY2027,float64,0,11,197.735242,EBITDA USD juta,kurasi
+scenario_results.csv,nd_FY2027,float64,0,11,2.596749,Net Debt to EBITDA FY2027 (pembiayaan ulang bank bergulir),kurasi
+scenario_results.csv,nd_FY2027_amortisasi,float64,0,12,2.480063,sama tanpa pembiayaan ulang,kurasi
+scenario_results.csv,cover_FY2027,float64,0,11,1.791105,DSCR FY2027,kurasi
+scenario_results.csv,ebitda_FY2028,float64,0,10,240.044492,EBITDA USD juta,kurasi
+scenario_results.csv,nd_FY2028,float64,0,10,2.059488,Net Debt to EBITDA FY2028,kurasi
+scenario_results.csv,nd_FY2028_amortisasi,float64,0,12,1.841712,Net Debt to EBITDA FY2028 tanpa pembiayaan ulang bank,kurasi
+scenario_results.csv,cover_FY2028,float64,0,10,1.835224,DSCR FY2028,kurasi
+scenario_results.csv,nd_FY2026,float64,0,9,2.196282,Net Debt to EBITDA FY2026,kurasi
+scenario_results.csv,current_ratio_min,float64,0,12,1.677723,Current Ratio terendah FY2027-FY2030,kurasi
+scenario_results.csv,current_ratio_breach_fy,object,9,3,FY2030,"tahun pertama Current Ratio di bawah 1,10x (kosong bila tidak ada)",kurasi
+scenario_results.csv,min_liquidity,float64,0,12,320.399811,"kas + deposito terendah, USD juta",kurasi
+scenario_results.csv,first_below,object,9,3,2031-06,bulan pertama kas + deposito di bawah batas minimum,kurasi
+scenario_results.csv,min_liquidity_noref,float64,0,12,161.695966,"kas + deposito terendah tanpa pembiayaan ulang bank, USD juta",kurasi
+scenario_results.csv,pelunasan_ke_2_7x,float64,0,4,0.0,"pelunasan utang bank (USD juta) agar ND <= 2,70x",kurasi
+severity.csv,metric,object,0,19,brent_p90,,otomatis
+severity.csv,value,object,0,19,0.611853395101919,,otomatis
+source_manifest.csv,source_id,object,0,19,LK2025,,otomatis
+source_manifest.csv,path_or_url,object,0,19,Financial-Statements/PDF-FS/SMDR LK 2025.pdf,,otomatis
+source_manifest.csv,sha256,object,0,19,b7bf280907bbadc5849d696c3fad34e9e047eec1a8d0b38d5a69eb385afb,,otomatis
+source_manifest.csv,document_date,object,0,17,2025-12-31,,otomatis
+source_manifest.csv,accessed_date,object,0,2,2026-11-05,,otomatis
+source_manifest.csv,entity_scope,object,0,3,konsolidasian: SMDR dan entitas anak,,otomatis
+source_manifest.csv,page_count,float64,1,17,132.0,,otomatis
+source_manifest.csv,source_type,object,0,9,laporan_keuangan_pdf,,otomatis
+source_manifest.csv,review_status,object,0,1,section_read,,otomatis
+source_manifest.csv,note,object,0,19,"Laporan keuangan konsolidasian FY2025 (diaudit), dalam Lapor",,otomatis
+usdidr_monthly_fred.csv,observation_date,object,0,717,1967-01-01,,otomatis
+usdidr_monthly_fred.csv,CCUSMA02IDM618N,float64,0,591,137.0,,otomatis
+usdidr_monthly_provider.csv,Tanggal,object,0,83,01/11/2026,,otomatis
+usdidr_monthly_provider.csv,Terakhir,object,0,75,"18.148,3",,otomatis
+usdidr_monthly_provider.csv,Pembukaan,object,0,77,"18.150,0",,otomatis
+usdidr_monthly_provider.csv,Tertinggi,object,0,82,"18.180,0",,otomatis
+usdidr_monthly_provider.csv,Terendah,object,0,83,"18.111,2",,otomatis
+usdidr_monthly_provider.csv,Vol.,float64,83,0,,,otomatis
+usdidr_monthly_provider.csv,Perubahan%,object,0,80,"0,13%",,otomatis
+wci_composite_weekly.csv,date,object,0,508,2016-03-10,,otomatis
+wci_composite_weekly.csv,wci,float64,0,467,700.57,,otomatis
+zero_fill_rules.csv,rule_id,object,0,5,Z01,,otomatis
+zero_fill_rules.csv,statement,object,0,1,BS,,otomatis
+zero_fill_rules.csv,line_key,object,0,2,sukuk_current,,otomatis
+zero_fill_rules.csv,period,object,0,4,9M26,,otomatis
+zero_fill_rules.csv,fill_value,int64,0,1,0,,otomatis
+zero_fill_rules.csv,reason,object,0,5,Sukuk jatuh tempo dalam satu tahun berstatus n.d. pada 30 Se,,otomatis
+zero_fill_rules.csv,evidence,object,0,5,Sukuk-Information: S1 PDF30 (jadwal Seri B); S3 PDF19/24 (da,,otomatis
+zero_fill_rules.csv,status,object,0,1,approved,,otomatis
+zero_fill_rules.csv,approved_on,object,0,1,2026-11-05,,otomatis

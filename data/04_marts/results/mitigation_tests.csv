@@ -1,0 +1,37 @@
+skenario,case,paydown,dividend_stop,nd_FY2027,nd_FY2028,current_ratio_min,current_ratio_min_fy,min_liquidity
+Permintaan melemah,central,54.0,False,2.323657,1.83453,1.520287,FY2029,266.399811
+Permintaan melemah,adverse,54.0,False,2.369978,1.83453,0.899231,FY2030,-36.692635
+Kelebihan kapasitas,central,54.0,False,2.698379,2.345906,1.285229,FY2029,180.798946
+Kelebihan kapasitas,adverse,54.0,False,2.698379,2.345906,0.667463,FY2030,-111.871526
+Permintaan lemah dan kelebihan kapasitas,central,54.0,False,3.05311,2.547249,1.16848,FY2030,139.493197
+Permintaan lemah dan kelebihan kapasitas,adverse,54.0,False,3.161357,2.605494,0.517442,FY2030,-160.533991
+Dasar,central,54.0,False,1.946098,1.799291,1.67871,FY2029,325.998878
+Dasar,adverse,54.0,False,1.969464,1.779542,1.094079,FY2030,32.442457
+Energi bertahan,central,54.0,False,2.051277,1.80822,1.640269,FY2029,312.502994
+Energi bertahan,adverse,54.0,False,2.15115,1.793801,1.028537,FY2030,11.182671
+Gabungan,central,54.0,False,2.058441,1.812501,1.633281,FY2029,310.376876
+Gabungan,adverse,54.0,False,2.166969,1.802247,1.013512,FY2030,5.539573
+Permintaan melemah,central,107.0,False,2.055622,1.613738,1.365766,FY2029,213.399811
+Permintaan melemah,adverse,107.0,False,2.096599,1.613738,0.730868,FY2030,-89.692635
+Kelebihan kapasitas,central,107.0,False,2.38712,2.063568,1.128737,FY2030,127.798946
+Kelebihan kapasitas,adverse,107.0,False,2.38712,2.063568,0.4991,FY2030,-164.871526
+Permintaan lemah dan kelebihan kapasitas,central,107.0,False,2.700932,2.240678,1.000117,FY2030,86.493197
+Permintaan lemah dan kelebihan kapasitas,adverse,107.0,False,2.796693,2.291914,0.349079,FY2030,-213.533991
+Dasar,central,107.0,False,1.721615,1.58274,1.52419,FY2029,272.998878
+Dasar,adverse,107.0,False,1.742285,1.565367,0.925716,FY2030,-20.557543
+Energi bertahan,central,107.0,False,1.814661,1.590594,1.485749,FY2029,259.502994
+Energi bertahan,adverse,107.0,False,1.903013,1.57791,0.860174,FY2030,-41.817329
+Gabungan,central,107.0,False,1.820999,1.59436,1.47876,FY2029,257.376876
+Gabungan,adverse,107.0,False,1.917008,1.58534,0.845149,FY2030,-47.460427
+Permintaan melemah,central,107.0,True,2.055622,1.613738,1.568684,FY2029,307.919973
+Permintaan melemah,adverse,107.0,True,2.096599,1.613738,1.025662,FY2030,26.307365
+Kelebihan kapasitas,central,107.0,True,2.38712,2.063568,1.333626,FY2029,225.395929
+Kelebihan kapasitas,adverse,107.0,True,2.38712,2.063568,0.793894,FY2030,-48.871526
+Permintaan lemah dan kelebihan kapasitas,central,107.0,True,2.700932,2.240678,1.220202,FY2029,185.574866
+Permintaan lemah dan kelebihan kapasitas,adverse,107.0,True,2.796693,2.291914,0.643873,FY2030,-97.533991
+Dasar,central,107.0,True,1.721615,1.58274,1.707289,FY2028,361.48394
+Dasar,adverse,107.0,True,1.742285,1.565367,1.22051,FY2030,95.442457
+Energi bertahan,central,107.0,True,1.814661,1.590594,1.671531,FY2028,348.602395
+Energi bertahan,adverse,107.0,True,1.903013,1.57791,1.154968,FY2030,74.182671
+Gabungan,central,107.0,True,1.820999,1.59436,1.663962,FY2028,346.466191
+Gabungan,adverse,107.0,True,1.917008,1.58534,1.139943,FY2030,68.539573

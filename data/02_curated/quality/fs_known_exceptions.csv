@@ -1,0 +1,4 @@
+check_id,period,explanation
+SUM:CF:cfi,9M25,"Sel 3510000!C72 pada file IDX F07 (9M26, kolom pembanding 9M25) berisi -5.401.404 untuk penerimaan dividen investasi; nilainya sama dan berlawanan dengan pembayaran akuisisi entitas asosiasi (C70). Total CFI dilaporkan -64.796.703 hanya cocok bila baris dividen tidak dihitung. Tampaknya galat penyajian pada sumber. Jangan memakai dividends_received 9M25; total CFI tetap dapat dipakai."
+SUM:EQ:total.closing,FY2021,"Roll-forward ekuitas 2021 kurang USD 88.701 (saldo awal + mutasi < saldo akhir neraca). Sama dengan selisih yang dicatat pada sheet Rekonsiliasi workbook sumber (baris 33-35); ada seluruhnya pada kepentingan non-pengendali. Ekuitas neraca FY2021 tetap dipakai; jangan memakai mutasi ekuitas 2021 untuk menurunkan saldo."
+SUM:EQ:nci.closing,FY2021,"Selisih USD 88.701 yang sama dengan SUM:EQ:total.closing FY2021; seluruhnya pada kepentingan non-pengendali."

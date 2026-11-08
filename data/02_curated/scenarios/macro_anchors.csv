@@ -1,0 +1,5 @@
+driver,month,value,unit,source,note
+brent,2026-10,124.8,USD/barel,data pasar: rata-rata harian hingga 27 Okt 2026 (bulan parsial),pembacaan lain: OCE sekitar USD118 pada akhir Oktober; berbeda ukuran dan tanggal
+usdidr,2026-10,18125.0,IDR/USD,data pasar: penutupan bulanan Oktober 2026,November 2026 parsial: 18.148
+bi_rate,2026-11,5.75,% p.a.,OCE-BRIEF hal. 1 (per 2 Nov 2026),ditahan pada RDG 21 Okt 2026
+fed_funds,2026-11,4.0,% p.a.,OCE-BRIEF hal. 1 (per 2 Nov 2026),batas atas target

@@ -1,0 +1,9 @@
+parameter,label,central,adverse,d_min_liq
+maintenance_capex,Belanja modal pemeliharaan,70.0,87.0,-90.105423
+lease_principal,Pokok sewa kapal,102.0,115.0,-67.881963
+deposit_availability,Deposito entitas anak tidak dapat ditarik,1.0,0.66,-57.362716
+ocf_conversion,Konversi EBITDA ke kas operasi,0.9,0.86,-41.82761
+short_bank_rollover,Pinjaman jangka pendek tidak diperpanjang,1.0,0.0,-12.773658
+cash_yield,Imbal hasil atas kas,0.04,0.03,-7.491004
+program_cost_overrun,Kelebihan biaya program kapal baru,0.0,0.1,-4.57575
+program_front_share,Termin program condong awal,0.46,0.7,-0.237674

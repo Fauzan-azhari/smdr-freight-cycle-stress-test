@@ -1,0 +1,13 @@
+check_id,description,n_tested,n_fail,status,detail
+FX:no_gap,deret bulan kurs tanpa celah,83,0,PASS,
+FX:unique_month,satu baris per bulan,83,0,PASS,
+FX:ohlc,"tertinggi >= max(buka,tutup) dan terendah <= min",83,3,KNOWN,"2020-04,2020-05,2020-12 | Sumber kurs: penutupan berada di bawah nilai terendah bulan itu pada Apr-2020 (14.825,0 vs 14.857,5), Mei-2020 (14.575,0 vs 14.607,5) dan Des-2020 (14.040,0 vs 14.050,0); selisih 0,07-0,23%. Penyebab tidak diketahui (file tidak mencatat penyedia atau cara penyusunan). Pakai hanya kolom Terakhir; jangan pakai Tertinggi/Terendah untuk tiga bulan ini."
+FX:change_pct,"perubahan% sumber = hitungan dari penutupan berurutan (toleransi 0,02 pp)",82,0,PASS,
+BRENT:sorted_unique,tanggal berurutan tanpa duplikat,1517,0,PASS,
+BRENT:positive,harga > 0,1471,0,PASS,
+BRENT:nd_days,"hari tanpa nilai ('.' pada sumber, umumnya libur)",1517,46,INFO,46 hari
+BRENT:large_moves,"perubahan harian > 8%% (dicatat, bukan galat)",1470,19,INFO,2021-03-18 -8.3%; 2021-11-26 -11.8%; 2022-03-09 -12.5%; 2022-03-17 +8.5%; 2022-07-05 -9.3%; 2023-04-03 +8.4%; 2026-03-05 +8.6%; 2026-03-12 +12.5%; 2026-03-18 +8.9%; 2026-03-23 -12.4%; 2026-04-08 -11.6%; 2026-04-17 -15.4%; 2026-05-06 -9.4%; 2026-07-13 +9.8%; 2026-07-23 +11.9%; 2026-07-27 -8.5%; 2026-08-03 -8.3%; 2026-09-10 +10.5%; 2026-10-02 +18.0%
+BRENT:coverage,bulan lengkap punya >= 15 observasi harian,70,0,PASS,
+LEGACY:usdidr_close,usdidr_close sama dengan ekstraksi v4 (toleransi 0.05),83,0,PASS,
+LEGACY:brent_avg,brent_avg sama dengan ekstraksi v4 (toleransi 0.001),70,0,PASS,
+LEGACY:brent_eom,brent_eom sama dengan ekstraksi v4 (toleransi 0.001),70,0,PASS,

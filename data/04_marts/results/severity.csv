@@ -1,0 +1,20 @@
+metric,value
+brent_p90,0.611853395101919
+n_brent,463
+brent_start,1987
+brent_p90_annual,0.40803945201727854
+n_brent_annual,38
+d_brent,-28.73295031575169
+d_brent_adverse,-46.76773526652846
+fx_p90,0.1334705689887557
+n_fx,309
+d_fx,-2.860751162132158
+d_fx_adverse,-5.721502324264316
+rate_fy2024,-0.116
+d_rate,-67.44302814
+ebitda,240.044492
+corr_wci_brent,0.41601958781678045
+n_corr,9
+corr_years,"(2017, 2025)"
+brent_oct,124.83
+brent_ttm,85.86071179472067

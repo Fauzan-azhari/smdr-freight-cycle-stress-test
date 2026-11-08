@@ -1,0 +1,25 @@
+scenario_id,driver,path_type,target,magnitude,magnitude_unit,ramp_months,hold_months,retrace_fraction,retrace_months,assumption_id,basis,status
+MS-BASE,brent,hold_then_decay,,,,,3.0,,,AS-B01,"Ditahan tiga bulan pada level Oktober, lalu turun mengikuti proporsi episode 2022 (rasio terhadap puncak pada +k bulan). Bukan ramalan harga.",precedent
+MS-BASE,usdidr,anchor_targets,2026-12:18118;2027-12:17722,,,,,,,AS-B02,Akhir 2026 = proyeksi OCE vintage November (18.118); akhir 2027 = proyeksi OCE vintage Oktober (17.722); setelah itu ditahan.,anchored
+MS-BASE,bi_rate,anchor_targets,2026-12:6.00;2027-12:6.00,,,,,,,AS-B03,"Proyeksi OCE: 6,00% pada akhir 2026 dan 2027; setelah itu ditahan.",anchored
+MS-BASE,fed_funds,anchor_targets,2026-12:4.25;2027-12:4.25,,,,,,,AS-B04,"Proyeksi OCE vintage Oktober: 4,25% pada akhir 2026 dan 2027; setelah itu ditahan.",anchored
+MS-ENERGY,brent,hold_then_decay,,,,,9.0,,,AS-E01,"Level Oktober ditahan sembilan bulan (satu setengah kali lamanya fase di atas USD100 pada 2022), lalu turun mengikuti proporsi episode 2022 selama 12 bulan dan ditahan setelahnya. Durasi adalah asumsi.",assumed
+MS-ENERGY,usdidr,follow,,,,,,,,AS-B02,Mengikuti skenario dasar agar efek energi terisolasi.,follows_base
+MS-ENERGY,bi_rate,follow,,,,,,,,AS-B03,Mengikuti skenario dasar agar efek energi terisolasi.,follows_base
+MS-ENERGY,fed_funds,follow,,,,,,,,AS-B04,Mengikuti skenario dasar agar efek energi terisolasi.,follows_base
+MS-NORMAL,brent,hold_then_decay,,,,,0.0,,,AS-N01,"Turun mengikuti proporsi episode 2022 sejak Oktober (27% dalam 3 bulan, 39% dalam 12 bulan), lalu ditahan; mewakili normalisasi rute dan energi yang cepat.",precedent
+MS-NORMAL,usdidr,follow,,,,,,,,AS-B02,Mengikuti skenario dasar.,follows_base
+MS-NORMAL,bi_rate,follow,,,,,,,,AS-B03,Mengikuti skenario dasar.,follows_base
+MS-NORMAL,fed_funds,follow,,,,,,,,AS-B04,Mengikuti skenario dasar.,follows_base
+MS-FX,usdidr,shock_retrace,,6.9,pct,6.0,6.0,0.5,12.0,AS-F01,"Depresiasi 6,9% terhadap jalur dasar dalam enam bulan = persentil 90 perubahan kurs enam bulanan 2020-2026 (n=75); ditahan enam bulan, lalu kembali separuhnya dalam 12 bulan. Berada di atas rentang proyeksi resmi OCE (enam bulan: 17.250 sampai 18.340).",shock
+MS-FX,brent,follow,,,,,,,,AS-B01,Mengikuti skenario dasar.,follows_base
+MS-FX,bi_rate,follow,,,,,,,,AS-B03,Mengikuti skenario dasar.,follows_base
+MS-FX,fed_funds,follow,,,,,,,,AS-B04,Mengikuti skenario dasar.,follows_base
+MS-RATE,bi_rate,shock_retrace,,1.0,pp,6.0,12.0,1.0,12.0,AS-R01,"Naik 100 bps terhadap jalur dasar dalam enam bulan, ditahan 12 bulan, kembali penuh dalam 12 bulan. Besaran mengikuti selisih skenario downside terhadap baseline pada proyeksi IFRS 9 OCE (6,50% vs 5,50%).",shock
+MS-RATE,fed_funds,shock_retrace,,0.5,pp,6.0,12.0,1.0,12.0,AS-R02,Naik 50 bps dengan pola yang sama; OCE menyebut peluang kenaikan lanjutan dan selisih BI Rate terhadap Fed tinggal 175 bps. Besaran adalah asumsi.,assumed
+MS-RATE,brent,follow,,,,,,,,AS-B01,Mengikuti skenario dasar.,follows_base
+MS-RATE,usdidr,follow,,,,,,,,AS-B02,Mengikuti skenario dasar.,follows_base
+MS-COMBINED,brent,hold_then_decay,,,,,9.0,,,AS-E01,Sama dengan skenario energi bertahan.,assumed
+MS-COMBINED,usdidr,shock_retrace,,3.8,pct,6.0,6.0,0.5,12.0,AS-C01,"Depresiasi 3,8% terhadap jalur dasar = persentil 75 perubahan kurs enam bulanan; OCE mengaitkan tekanan rupiah dengan Brent di atas USD115 dan risiko geopolitik. Koefisien historis Brent ke kurs lemah, sehingga besaran ini berasal dari narasi, bukan regresi.",shock
+MS-COMBINED,bi_rate,shock_retrace,,0.5,pp,6.0,12.0,1.0,12.0,AS-C02,Naik 50 bps (setengah skenario bunga) mengikuti tekanan rupiah.,assumed
+MS-COMBINED,fed_funds,shock_retrace,,0.25,pp,6.0,12.0,1.0,12.0,AS-C03,Naik 25 bps (setengah skenario bunga).,assumed

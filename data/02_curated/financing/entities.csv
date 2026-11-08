@@ -1,0 +1,6 @@
+entity_id,entity_name,parent_id,ownership_pct,accounting_method,functional_currency,consolidation_scope,evidence_id,note
+SMDR,PT Samudera Indonesia Tbk,,,konsolidasi penuh,USD,induk dan penerbit sukuk,EV-S3-OUTSTANDING,
+SPKLI,PT Samudera Perkapalan Indonesia,SMDR,,konsolidasi penuh,,anak; SMDR pemegang saham pengendali,EV-S3-SPKLI,persentase kepemilikan belum diverifikasi
+GSM,PT Galangan Samudera Madura,SMDR,,konsolidasi penuh,,anak,EV-S2-GSM,persentase kepemilikan belum diverifikasi
+SSL,Samudera Shipping Line Ltd (Singapura),SMDR,,konsolidasi penuh,,anak (divalidasi pengguna 2026-11-05),EV-N-SSL,persentase kepemilikan belum diverifikasi; perlakuan kas dan kepentingan non-pengendali perlu dipetakan
+PGT,Patimban Global Terminal,SMDR,21,metode ekuitas,,entitas asosiasi,,21% tercantum pada catatan investasi laporan keuangan 9M2026

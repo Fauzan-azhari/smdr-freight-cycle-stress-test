@@ -1,0 +1,5 @@
+milestone_id,project_id,amount,currency,amount_basis,total_cost_version,payment_trigger,contractual_due_date,expected_due_date,paid_amount,remaining_amount,evidence_id,note
+MS-CT1,PRJ-CT1,228298000000,IDR,alokasi penggunaan dana,S3 2026-05-18,,,,,,EV-S3-CT-UNIT,termin dan tanggal pembayaran belum tersedia
+MS-CT2,PRJ-CT2,228298000000,IDR,alokasi penggunaan dana,S3 2026-05-18,,,,,,EV-S3-CT-UNIT,termin dan tanggal pembayaran belum tersedia
+MS-CV1,PRJ-CV1,222898000000,IDR,alokasi penggunaan dana,S3 2026-05-18,,,,,,EV-S3-CV-BUILD,termin dan tanggal pembayaran belum tersedia
+MS-CV1-PREOP,PRJ-CV1,15326000000,IDR,alokasi biaya praoperasi,S3 2026-05-18,,,,,,EV-S3-CV-PREOP,

@@ -1,0 +1,37 @@
+{
+  "run_id": "M1_baseline",
+  "model_version": "v5_transition",
+  "created": "2026-11-08T14:06:06+07:00",
+  "financial_cutoff": "2026-09-30",
+  "knowledge_cutoff": "2026-11-05",
+  "ttm_window": {
+    "label": "TTM_2026-09",
+    "plus": "FY2025",
+    "minus": "9M25",
+    "add": "9M26"
+  },
+  "input_sha256": {
+    "data/03_canonical/fs_long.csv": "c13e6c015d6ca96a0558535b67ed915118f40319fc0a064b1885eaf5d80e8431",
+    "data/02_curated/assumptions/zero_fill_rules.csv": "3de6d44a675c6f33462134792bfb700198f8975463707e0f3791e03471eb1424",
+    "data/02_curated/evidence/evidence.csv": "d25a5d0824319cc04bfbea001a50fb4d94c70c4e222749bda02240b9f58fe2bf",
+    "data/02_curated/decisions/decisions.csv": "ffe54289313244dc78962850d7c4be1acf1290be1f9259e2d9259e80b72f92ac",
+    "data/02_curated/decisions/legacy_benchmark.csv": "c4b016089f49f7d52bd9eb0b3cb1f1a2f594016a542b693344cafbbed4a876a7"
+  },
+  "checks": {
+    "total": 698,
+    "pass": 695,
+    "known_exceptions": 3,
+    "fail": 0
+  },
+  "decisions_applied": {
+    "D01": "pdf_audit",
+    "D02": "approved"
+  },
+  "bridge_status": {
+    "reproduced": 6,
+    "verified_primary": 1,
+    "selected": 1
+  },
+  "python": "3.9.6",
+  "pandas": "2.3.3"
+}

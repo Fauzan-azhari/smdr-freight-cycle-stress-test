@@ -1,0 +1,62 @@
+dataset,layer,path,rows,columns,produced_by,inputs,read_by,deck_use
+DCOILBRENTEU.csv,raw,data/01_raw/fred/DCOILBRENTEU.csv,1517,2,penyedia,,src/smdr/macro_ingest.py,hulu
+backtest.csv,marts,data/04_marts/results/backtest.csv,3,8,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/excel_model.py;src/smdr/marts.py,setara
+baseline_bridge.csv,marts,data/04_marts/baseline/baseline_bridge.csv,8,10,smdr.baseline,fs_long.csv; zero_fill_rules.csv; evidence.csv; decisions.csv; legacy_benchmark.csv,src/smdr/baseline.py;src/smdr/excel_model.py;src/smdr/position.py;src/smdr/transition/transmission.py,langsung
+baseline_quarters.csv,marts,data/04_marts/baseline/baseline_quarters.csv,497,6,smdr.baseline,fs_long.csv; zero_fill_rules.csv; evidence.csv; decisions.csv; legacy_benchmark.csv,src/smdr/baseline.py;src/smdr/position.py,pendukung
+baseline_ttm.csv,marts,data/04_marts/baseline/baseline_ttm.csv,71,6,smdr.baseline,fs_long.csv; zero_fill_rules.csv; evidence.csv; decisions.csv; legacy_benchmark.csv,src/smdr/baseline.py;src/smdr/position.py;src/smdr/transition/transmission.py,langsung
+brent_daily_fred.csv,raw,data/01_raw/fred/brent_daily_fred.csv,10295,2,penyedia,,src/smdr/transition/robustness.py,langsung
+capex_milestones.csv,curated,data/02_curated/financing/capex_milestones.csv,4,13,kurasi tangan,,src/smdr/excel_model.py;src/smdr/transition/cashflow.py;src/smdr/transition/maturity.py,langsung
+cash_assumptions.csv,curated,data/02_curated/assumptions/cash_assumptions.csv,11,10,kurasi tangan,,src/smdr/excel_model.py;src/smdr/transition/cashflow.py,langsung
+cash_paths_monthly.csv,marts,data/04_marts/results/cash_paths_monthly.csv,756,27,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/excel_model.py;src/smdr/marts.py,setara
+cash_tornado.csv,marts,data/04_marts/results/cash_tornado.csv,8,5,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/marts.py,setara
+covenant_quarterly.csv,marts,data/04_marts/results/covenant_quarterly.csv,108,8,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/excel_model.py;src/smdr/marts.py,setara
+covenant_suite.csv,curated,data/02_curated/financing/covenant_suite.csv,80,12,kurasi tangan,,deck_v5/versi_stopford/data.py,pendukung
+data_gaps.csv,registry,data/00_registry/data_gaps.csv,13,9,kurasi tangan,,,dokumentasi
+decisions.csv,curated,data/02_curated/decisions/decisions.csv,10,7,kurasi tangan,,src/smdr/baseline.py,hulu
+deck_dependencies.csv,registry,data/00_registry/deck_dependencies.csv,18,1,kurasi tangan,,deck_v5/data.py,pendukung
+emerging_risk_evidence.csv,canonical,data/03_canonical/emerging_risk_evidence.csv,19,11,smdr.transition.emerging,emerging_risk_evidence_src.csv; emerging_risks.csv,src/smdr/transition/emerging.py,pendukung
+emerging_risk_evidence_src.csv,curated,data/02_curated/evidence/emerging_risk_evidence_src.csv,19,10,kurasi tangan,,src/smdr/transition/emerging.py,pendukung
+emerging_risks.csv,curated,data/02_curated/evidence/emerging_risks.csv,8,10,kurasi tangan,,src/smdr/transition/emerging.py,pendukung
+entities.csv,curated,data/02_curated/financing/entities.csv,5,9,kurasi tangan,,,dokumentasi
+evidence.csv,curated,data/02_curated/evidence/evidence.csv,44,15,kurasi tangan,,src/smdr/baseline.py;src/smdr/operating.py;src/smdr/transition/maturity.py,langsung
+financing_events.csv,canonical,data/03_canonical/financing_events.csv,38,9,smdr.transition.financing,financing_facilities.csv,src/smdr/excel_model.py;src/smdr/transition/financing.py,pendukung
+financing_facilities.csv,curated,data/02_curated/financing/financing_facilities.csv,3,24,kurasi tangan,,src/smdr/operating.py;src/smdr/transition/financing.py;src/smdr/transition/transmission.py,langsung
+fs_checks.csv,canonical,data/03_canonical/quality/fs_checks.csv,698,10,smdr.fs_checks,fs_long.csv; fs_line_dictionary.csv; fs_known_exceptions.csv,src/smdr/fs_checks.py,pendukung
+fs_known_exceptions.csv,curated,data/02_curated/quality/fs_known_exceptions.csv,3,3,kurasi tangan,,src/smdr/fs_checks.py,pendukung
+fs_line_dictionary.csv,registry,data/00_registry/fs_line_dictionary.csv,326,5,smdr.fs_ingest,fs_lines.py,src/smdr/fs_checks.py;src/smdr/fs_ingest.py,pendukung
+fs_long.csv,canonical,data/03_canonical/fs_long.csv,2605,13,smdr.fs_ingest,idx_line_items.csv,src/smdr/baseline.py;src/smdr/excel_model.py;src/smdr/fs_checks.py;src/smdr/fs_ingest.py;src/smdr/operating.py;src/smdr/raw_export.py,langsung
+fs_source_manifest.csv,registry,data/00_registry/fs_source_manifest.csv,7,8,smdr.fs_ingest,Financial-Statements/Excel-FS/*.xlsx (SHA-256),src/smdr/fs_ingest.py,pendukung
+historical_test.csv,marts,data/04_marts/results/historical_test.csv,4,3,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/excel_model.py;src/smdr/marts.py,setara
+idx_line_items.csv,raw,data/01_raw/idx/idx_line_items.csv,4196,11,smdr.raw_export,Financial-Statements/SMDR_Financial_Statements_2021_9M26.xlsx (sheet Data Sumber),src/smdr/raw_export.py,hulu
+industry_narratives.csv,curated,data/02_curated/scenarios/industry_narratives.csv,4,9,kurasi tangan,,src/smdr/transition/bridge.py,langsung
+known_exceptions.csv,curated,data/02_curated/quality/known_exceptions.csv,11,8,kurasi tangan,,,dokumentasi
+legacy_benchmark.csv,curated,data/02_curated/decisions/legacy_benchmark.csv,6,6,kurasi tangan,,src/smdr/baseline.py,hulu
+legacy_decisions.csv,curated,data/02_curated/decisions/legacy_decisions.csv,28,8,kurasi tangan,,,dokumentasi
+macro_anchors.csv,curated,data/02_curated/scenarios/macro_anchors.csv,4,6,kurasi tangan,,src/smdr/excel_model.py;src/smdr/transition/macro.py,langsung
+macro_checks.csv,canonical,data/03_canonical/quality/macro_checks.csv,12,6,smdr.macro_checks,DCOILBRENTEU.csv; usdidr_monthly_provider.csv; macro_monthly.csv; macro_known_exceptions.csv,src/smdr/macro_checks.py,pendukung
+macro_daily.csv,canonical,data/03_canonical/macro_daily.csv,1517,6,smdr.macro_ingest,DCOILBRENTEU.csv,src/smdr/macro_ingest.py,pendukung
+macro_forecast_vintages.csv,curated,data/02_curated/scenarios/macro_forecast_vintages.csv,28,12,kurasi tangan,,src/smdr/transition/macro.py,pendukung
+macro_ifrs9_vintage.csv,curated,data/02_curated/scenarios/macro_ifrs9_vintage.csv,240,6,kurasi tangan,,src/smdr/transition/macro.py,pendukung
+macro_known_exceptions.csv,curated,data/02_curated/quality/macro_known_exceptions.csv,1,2,kurasi tangan,,src/smdr/macro_checks.py,pendukung
+macro_monthly.csv,canonical,data/03_canonical/macro_monthly.csv,223,7,smdr.macro_ingest,DCOILBRENTEU.csv; usdidr_monthly_provider.csv,deck_v5/versi_stopford/data.py;src/smdr/macro_checks.py;src/smdr/macro_ingest.py;src/smdr/transition/robustness.py,langsung
+macro_monthly_wide.csv,canonical,data/03_canonical/macro_monthly_wide.csv,83,5,smdr.macro_ingest,macro_monthly.csv,src/smdr/excel_model.py;src/smdr/macro_ingest.py;src/smdr/transition/macro.py;src/smdr/transition/maturity.py,langsung
+macro_scenario_definitions.csv,curated,data/02_curated/scenarios/macro_scenario_definitions.csv,24,13,kurasi tangan,,src/smdr/excel_model.py;src/smdr/transition/macro.py,langsung
+macro_source_manifest.csv,registry,data/00_registry/macro_source_manifest.csv,2,9,smdr.macro_ingest,DCOILBRENTEU.csv; usdidr_monthly_provider.csv (SHA-256),src/smdr/macro_ingest.py,pendukung
+mitigation_tests.csv,marts,data/04_marts/results/mitigation_tests.csv,36,9,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/excel_model.py;src/smdr/marts.py,setara
+mitigations.csv,curated,data/02_curated/assumptions/mitigations.csv,4,12,kurasi tangan,,src/smdr/transition/mitigation.py,pendukung
+network_exposure.csv,canonical,data/03_canonical/network_exposure.csv,14,9,smdr.transition.exposure,source_manifest.csv (halaman Annual Report),src/smdr/transition/exposure.py,pendukung
+opening_balance_2026-09-30.csv,marts,data/04_marts/baseline/opening_balance_2026-09-30.csv,53,4,smdr.baseline,fs_long.csv,src/smdr/baseline.py,pendukung
+operating_assumptions.csv,curated,data/02_curated/assumptions/operating_assumptions.csv,7,10,kurasi tangan,,src/smdr/excel_model.py;src/smdr/transition/transmission.py,langsung
+operating_checks.csv,canonical,data/03_canonical/quality/operating_checks.csv,18,6,smdr.operating,operating_long.csv; fs_long.csv; evidence.csv; financing_facilities.csv,src/smdr/operating.py,pendukung
+operating_dictionary.csv,registry,data/00_registry/operating_dictionary.csv,13,5,kurasi tangan,,,dokumentasi
+operating_long.csv,curated,data/02_curated/evidence/operating_long.csv,303,14,kurasi tangan,,src/smdr/excel_model.py;src/smdr/operating.py,langsung
+project_aliases.csv,curated,data/02_curated/financing/project_aliases.csv,8,6,kurasi tangan,,src/smdr/transition/maturity.py,pendukung
+project_status.csv,curated,data/02_curated/financing/project_status.csv,8,7,kurasi tangan,,,dokumentasi
+projects.csv,curated,data/02_curated/financing/projects.csv,7,15,kurasi tangan,,src/smdr/transition/maturity.py,pendukung
+scenario_results.csv,marts,data/04_marts/results/scenario_results.csv,12,19,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/excel_model.py;src/smdr/marts.py,setara
+severity.csv,marts,data/04_marts/results/severity.csv,19,2,smdr.marts,cash_assumptions.csv; operating_assumptions.csv; macro_scenario_definitions.csv; macro_anchors.csv; financing_facilities.csv; capex_milestones.csv; baseline_ttm.csv; fs_long.csv; macro_monthly_wide.csv; brent_daily_fred.csv; usdidr_monthly_fred.csv; wci_composite_weekly.csv,src/smdr/marts.py,setara
+source_manifest.csv,registry,data/00_registry/source_manifest.csv,19,10,kurasi tangan,,src/smdr/operating.py,pendukung
+usdidr_monthly_fred.csv,raw,data/01_raw/fred/usdidr_monthly_fred.csv,717,2,penyedia,,src/smdr/transition/robustness.py,langsung
+usdidr_monthly_provider.csv,raw,data/01_raw/fx/usdidr_monthly_provider.csv,83,7,penyedia,,src/smdr/macro_ingest.py,hulu
+wci_composite_weekly.csv,raw,data/01_raw/drewry/wci_composite_weekly.csv,508,2,penyedia,,deck_v5/data.py;deck_v5/panels.py;deck_v5/versi_stopford/data.py;src/smdr/transition/robustness.py,langsung
+zero_fill_rules.csv,curated,data/02_curated/assumptions/zero_fill_rules.csv,5,9,kurasi tangan,,src/smdr/baseline.py;src/smdr/covenant_band.py,langsung

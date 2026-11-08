@@ -1,0 +1,9 @@
+alias_id,project_id,source_id,source_group,match_status,match_basis
+AL01,PRJ-CT1,N-KONTAN,lima kapal dikontrak: dua chemical tanker,candidate,"jenis, jumlah, dan negara galangan sama dengan alokasi dana S3"
+AL02,PRJ-CT2,N-KONTAN,lima kapal dikontrak: dua chemical tanker,candidate,"jenis, jumlah, dan negara galangan sama dengan alokasi dana S3"
+AL03,PRJ-CV1,N-KONTAN,lima kapal dikontrak: tiga kapal kontainer,candidate,satu dari tiga kapal kontainer; S3 membiayai satu kapal kontainer
+AL04,,N-KONTAN,lima kapal dikontrak: dua kapal kontainer lainnya,unmatched,belum ada daftar kapal; tidak ditambahkan sebagai proyek
+AL05,,N-KONTAN,"empat kapal tambahan: dua dinegosiasikan di China, dua direncanakan di Jepang",unmatched,status direncanakan/negosiasi; tidak ada kontrak
+AL06,PRJ-SSL1,N-SSL,dua kapal 3.000 TEU SSL,matched,pengumuman perusahaan
+AL07,PRJ-SSL2,N-SSL,dua kapal 3.000 TEU SSL,matched,pengumuman perusahaan
+AL08,PRJ-SSL1,N-KONTAN,lima kapal dikontrak: dua kapal kontainer lainnya,possible,jenis kapal dan galangan di China sama; tetapi tanggal pengumuman SSL (3 Nov) setelah paparan (30 Okt) dan serah terima 2030 berbeda dari 2027-2028; tidak dikonfirmasi

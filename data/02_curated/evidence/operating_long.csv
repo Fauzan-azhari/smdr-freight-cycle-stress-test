@@ -1,0 +1,304 @@
+domain,metric_key,scope,period,value,unit,source_id,pdf_page,printed_page,source_token,series_role,acceptance_status,conflict_group_id,note
+segment_revenue,segment_revenue,shipping,FY2021,555.5,USD juta,AR2021,63,59.0,555.5,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,shipping,FY2022,1015.7,USD juta,AR2022,33,,"1.015,7",vintage,conditional,CG-SHIP-FY2022,"vintage laporan 2022 (1.015,7); laporan keuangan diaudit menyebut 1.022,4 untuk Jasa pelayaran dan keagenan"
+segment_revenue,segment_revenue,shipping,FY2023,617.8,USD juta,AR2023,91,89.0,617.8,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,shipping,FY2024,570.2,USD juta,AR2024,109,108.0,570.2,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,shipping,FY2025,640.3,USD juta,AR2025,125,124.0,640.3,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,logistics,FY2021,88.3,USD juta,AR2021,63,59.0,88.3,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,logistics,FY2022,106.5,USD juta,AR2022,33,,"106,5",vintage,conditional,CG-LOG-FY2022,vintage laporan 2022; berbeda dari pembanding pada laporan 2023
+segment_revenue,segment_revenue,logistics,FY2022,91.2,USD juta,AR2023,92,90.0,91.2,preferred,usable,CG-LOG-FY2022,"terkonfirmasi: 91,2 + 48,2 (Ports) = 139,4 juta cocok dengan Logistik dan pelabuhan 139,3 juta pada laporan keuangan diaudit; vintage laporan 2022 (106,5) tidak cocok"
+segment_revenue,segment_revenue,logistics,FY2023,106.0,USD juta,AR2023,92,90.0,106 million,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,logistics,FY2024,109.5,USD juta,AR2024,111,110.0,109.5,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,logistics,FY2025,101.7,USD juta,AR2025,126,125.0,101.7,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,ports,FY2021,49.1,USD juta,AR2021,63,59.0,49.1,vintage,conditional,CG-PORT-FY2021,"vintage laporan 2021; pembanding pada laporan 2022 menyebut 45,0"
+segment_revenue,segment_revenue,ports,FY2021,45.0,USD juta,AR2022,33,,"45,0",preferred,conditional,CG-PORT-FY2021,pembanding pada laporan 2022 (vintage terbaru dipilih)
+segment_revenue,segment_revenue,ports,FY2022,48.0,USD juta,AR2022,33,,"48,0",vintage,conditional,CG-PORT-FY2022,"vintage laporan 2022; pembanding pada laporan 2023 menyebut 48,2"
+segment_revenue,segment_revenue,ports,FY2022,48.2,USD juta,AR2023,92,90.0,48.2,preferred,usable,CG-PORT-FY2022,terkonfirmasi melalui jumlah Logistics dan Ports terhadap laporan keuangan diaudit
+segment_revenue,segment_revenue,ports,FY2023,52.3,USD juta,AR2023,92,90.0,52.3,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,ports,FY2024,66.6,USD juta,AR2024,112,111.0,66.6,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,ports,FY2025,68.5,USD juta,AR2025,127,126.0,68.5,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,services,FY2021,7.7,USD juta,AR2021,63,59.0,7.7,excluded,quarantined,,"definisi lini jasa pada 2021 berbeda dari seri 2022 dan sesudahnya (21,4 pada 2022); tidak dipakai"
+segment_revenue,segment_revenue,services,FY2022,21.4,USD juta,AR2023,93,91.0,21.4,preferred,usable,,"terkonfirmasi: 21,4 juta cocok dengan segmen Lainnya 21,396 juta pada laporan keuangan diaudit"
+segment_revenue,segment_revenue,services,FY2023,24.1,USD juta,AR2023,93,91.0,24.1,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,services,FY2024,26.2,USD juta,AR2024,112,111.0,26.2,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+segment_revenue,segment_revenue,services,FY2025,27.8,USD juta,AR2025,127,126.0,27.8,preferred,usable,,pendapatan lini sebelum eliminasi antar-segmen
+reported_growth,yoy_growth_reported,shipping,FY2025,12.3,%,AR2025,125,124.0,12.3%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,shipping,FY2024,-7.7,%,AR2024,109,108.0,7.7%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,logistics,FY2024,3.3,%,AR2024,111,110.0,3.3%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,logistics,FY2023,16.0,%,AR2023,92,90.0,16%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,ports,FY2024,27.3,%,AR2024,112,111.0,27.3%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,services,FY2025,6.2,%,AR2025,127,126.0,6.2%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,services,FY2024,8.7,%,AR2024,112,111.0,8.7%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,intl_container_volume,FY2025,8.1,%,AR2025,125,124.0,8.1%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,consolidated_revenue,FY2025,8.7,%,AR2025,125,124.0,8.7%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+reported_growth,yoy_growth_reported,consolidated_revenue,FY2024,-4.5,%,AR2024,109,108.0,4.5%,preferred,usable,,pertumbuhan tahunan sebagaimana tertulis pada sumber
+fleet,container_vessels,container_shipping,FY2021,24.0,kapal,AR2021,63,59.0,24 vessels,preferred,usable,,jumlah kapal kontainer yang dioperasikan segmen container shipping
+fleet,container_vessels,container_shipping,FY2022,25.0,kapal,AR2022,33,,25 vessels,preferred,usable,,jumlah kapal kontainer yang dioperasikan segmen container shipping
+fleet,container_vessels,container_shipping,FY2023,32.0,kapal,AR2023,92,90.0,32 vessels,preferred,usable,,jumlah kapal kontainer yang dioperasikan segmen container shipping
+fleet,container_vessels,container_shipping,FY2024,28.0,kapal,AR2024,109,108.0,28 vessels,preferred,usable,,jumlah kapal kontainer yang dioperasikan segmen container shipping
+fleet,container_vessels,container_shipping,FY2025,30.0,kapal,AR2025,125,124.0,30 vessels,preferred,usable,,jumlah kapal kontainer yang dioperasikan segmen container shipping
+fleet,container_capacity_teu,container_shipping,FY2021,33208.0,TEU,AR2021,63,59.0,"33,208",preferred,usable,,kapasitas armada kontainer; 2022 sampai 2024 tidak diungkap sebagai kapasitas
+fleet,container_capacity_teu,container_shipping,FY2025,48405.0,TEU,AR2025,125,124.0,48.405,preferred,usable,,kapasitas armada kontainer; 2022 sampai 2024 tidak diungkap sebagai kapasitas
+fleet,tanker_vessels,shipping,FY2023,6.0,kapal,AR2023,92,90.0,6 tankers,preferred,usable,,
+fleet,tanker_vessels,shipping,FY2024,8.0,kapal,AR2024,109,108.0,8 tankers,preferred,usable,,
+fleet,tanker_vessels,shipping,FY2025,8.0,kapal,AR2025,125,124.0,8 tanker,preferred,usable,,
+fleet,dry_bulk_vessels,shipping,FY2023,5.0,kapal,AR2023,92,90.0,5 dry bulk,preferred,usable,,
+fleet,dry_bulk_vessels,shipping,FY2024,5.0,kapal,AR2024,109,108.0,5 dry bulk,preferred,usable,,
+fleet,dry_bulk_vessels,shipping,FY2025,5.0,kapal,AR2025,125,124.0,5 dry bulk,preferred,usable,,
+fleet,tanker_bulk_dwt,shipping,FY2023,557027.0,DWT,AR2023,92,90.0,"557,027",preferred,usable,,kapasitas angkut gabungan kapal tanker dan dry bulk
+fleet,tanker_bulk_dwt,shipping,FY2024,577033.0,DWT,AR2024,109,108.0,"577,033",preferred,usable,,kapasitas angkut gabungan kapal tanker dan dry bulk
+fleet,tanker_bulk_dwt,shipping,FY2025,574673.0,DWT,AR2025,125,124.0,"574,673",preferred,usable,,kapasitas angkut gabungan kapal tanker dan dry bulk
+fleet,fleet_owned,group_operational_control,FY2023,20.0,kapal,AR2025,193,192.0,272620,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_owned,group_operational_control,FY2024,26.0,kapal,AR2025,193,192.0,272620,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_owned,group_operational_control,FY2025,27.0,kapal,AR2025,193,192.0,272620,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_chartered_in,group_operational_control,FY2023,33.0,kapal,AR2025,193,192.0,272633,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_chartered_in,group_operational_control,FY2024,26.0,kapal,AR2025,193,192.0,272633,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_chartered_in,group_operational_control,FY2025,27.0,kapal,AR2025,193,192.0,272633,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_chartered_out,group_operational_control,FY2023,11.0,kapal,AR2025,193,192.0,121111,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_chartered_out,group_operational_control,FY2024,11.0,kapal,AR2025,193,192.0,121111,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_chartered_out,group_operational_control,FY2025,12.0,kapal,AR2025,193,192.0,121111,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_operational_control,group_operational_control,FY2023,42.0,kapal,AR2025,193,192.0,424142,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_operational_control,group_operational_control,FY2024,41.0,kapal,AR2025,193,192.0,424142,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+fleet,fleet_operational_control,group_operational_control,FY2025,42.0,kapal,AR2025,193,192.0,424142,preferred,usable,,"tabel pengendalian operasional pada bagian lingkungan; urutan kolom sumber 2025, 2024, 2023"
+volume,container_volume_total,container_shipping,FY2022,1.9,juta TEU,AR2022,33,,1.9 million,preferred,usable,,cakupan: segmen container shipping; dibulatkan satu desimal
+volume,container_volume_total,container_shipping,FY2023,2.04,juta TEU,AR2023,92,90.0,2.04 million,preferred,usable,,cakupan: segmen container shipping
+volume,container_volume_total,container_shipping,FY2024,2.05,juta TEU,AR2024,109,108.0,2.05 million,preferred,usable,,cakupan: segmen container shipping
+volume,container_volume_intl,container_shipping,FY2024,1.911,juta TEU,AR2024,110,109.0,1.911 million,preferred,usable,,rute internasional
+volume,container_volume_intl,container_shipping,FY2025,2.1,juta TEU,AR2025,125,124.0,2.1 million,preferred,conditional,,"dibulatkan satu desimal; konsisten dengan 1,911 x 1,081 = 2,066"
+volume,port_throughput_domestic,ports,FY2021,639773.0,TEU,AR2021,63,59.0,"639,773",preferred,usable,,pelabuhan domestik
+volume,port_throughput_domestic,ports,FY2022,701409.0,TEU,AR2022,33,,701.409,preferred,usable,,pelabuhan domestik
+volume,port_throughput_total,ports,FY2025,960000.0,TEU,AR2025,127,126.0,960.000,preferred,conditional,,cakupan pelabuhan tidak dinyatakan; tidak sebanding dengan seri domestik 2021-2022
+volume,port_throughput_growth,ports,FY2023,2.4,%,AR2023,92,90.0,2.4%,preferred,usable,,pertumbuhan throughput yang dilaporkan
+volume,port_throughput_growth,ports,FY2024,8.4,%,AR2024,112,111.0,8.4%,preferred,usable,,pertumbuhan throughput yang dilaporkan
+logistics,warehouse_revenue,logistics,FY2022,22.0,USD juta,AR2023,92,90.0,22.0,preferred,usable,,
+logistics,warehouse_revenue,logistics,FY2023,25.8,USD juta,AR2023,92,90.0,"25,8",preferred,usable,,
+logistics,warehouse_revenue,logistics,FY2024,27.7,USD juta,AR2024,111,110.0,27.7,preferred,usable,,
+logistics,warehouse_revenue,logistics,FY2025,26.0,USD juta,AR2025,126,125.0,26.0,preferred,usable,,
+logistics,forwarding_revenue,logistics,FY2025,26.8,USD juta,AR2025,126,125.0,26.8,preferred,usable,,
+logistics,trucks,logistics,FY2025,342.0,unit,AR2025,126,125.0,342 trucks,preferred,usable,,"melayani perseroan, entitas anak, dan pihak ketiga"
+services_components,agency_revenue,services,FY2021,24.8,USD juta,AR2021,63,59.0,24.8,preferred,usable,,
+services_components,agency_revenue,services,FY2022,25.1,USD juta,AR2022,33,,"25,1",preferred,usable,,
+services_components,agency_revenue,services,FY2024,24.2,USD juta,AR2024,110,109.0,24.2,preferred,usable,,
+services_components,agency_revenue,services,FY2025,26.6,USD juta,AR2025,125,124.0,26.6,preferred,usable,,
+services_components,ship_services_revenue,services,FY2021,5.3,USD juta,AR2021,63,59.0,5.3,preferred,usable,,
+services_components,ship_services_revenue,services,FY2022,4.4,USD juta,AR2022,33,,"4,4",preferred,usable,,
+energy,energy_conventional,group,FY2025,6446523.0,GJ,AR2025,194,193.0,"6,446,523",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_conventional,group,FY2024,5176057.0,GJ,AR2025,194,193.0,"5,176,057",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_conventional,group,FY2023,5282102.0,GJ,AR2025,194,193.0,"5,282,102",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_renewable,group,FY2025,124019.0,GJ,AR2025,194,193.0,"124,019",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_renewable,group,FY2024,90256.0,GJ,AR2025,194,193.0,"90,256",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_renewable,group,FY2023,46289.0,GJ,AR2025,194,193.0,"46,289",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_total,group,FY2025,6570542.0,GJ,AR2025,194,193.0,"6,570,542",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_total,group,FY2024,5266313.0,GJ,AR2025,194,193.0,"5,266,313",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_total,group,FY2023,5328391.0,GJ,AR2025,194,193.0,"5,328,391",preferred,usable,,angka 2023 dan 2024 disajikan ulang (restatement) pada laporan 2025
+energy,energy_intensity_gj_per_vessel,group,FY2025,177582.0,GJ per kapal,AR2025,194,193.0,"177,582",excluded,quarantined,,"denominator tersirat (37, 45, dan 44 kapal) tidak sama dengan jumlah kapal pada kendali operasional (42, 41, 42)"
+energy,energy_intensity_gj_per_vessel,group,FY2024,117029.0,GJ per kapal,AR2025,194,193.0,"117,029",excluded,quarantined,,"denominator tersirat (37, 45, dan 44 kapal) tidak sama dengan jumlah kapal pada kendali operasional (42, 41, 42)"
+energy,energy_intensity_gj_per_vessel,group,FY2023,121100.0,GJ per kapal,AR2025,194,193.0,"121,100",excluded,quarantined,,"denominator tersirat (37, 45, dan 44 kapal) tidak sama dengan jumlah kapal pada kendali operasional (42, 41, 42)"
+revenue_by_service,freight_income,consolidated,FY2022,968152652.0,USD,LK2023,96,81.0,968.152.652,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,freight_income,consolidated,FY2023,548819124.0,USD,LK2023,96,81.0,548.819.124,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,freight_income,consolidated,FY2024,487568223.0,USD,LK2025,96,83.0,487.568.223,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,freight_income,consolidated,FY2025,530460818.0,USD,LK2025,96,83.0,530.460.818,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,freight_income,consolidated,9M25,372954106.0,USD,LK9M26,86,,372.954.106,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,freight_income,consolidated,9M26,423898703.0,USD,LK9M26,86,,423.898.703,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,agency_forwarding_ports,consolidated,FY2022,96433518.0,USD,LK2023,96,81.0,96.433.518,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,agency_forwarding_ports,consolidated,FY2023,100304188.0,USD,LK2023,96,81.0,100.304.188,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,agency_forwarding_ports,consolidated,FY2024,104977201.0,USD,LK2025,96,83.0,104.977.201,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,agency_forwarding_ports,consolidated,FY2025,102744112.0,USD,LK2025,96,83.0,102.744.112,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,agency_forwarding_ports,consolidated,9M25,73600424.0,USD,LK9M26,86,,73.600.424,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,agency_forwarding_ports,consolidated,9M26,87679356.0,USD,LK9M26,86,,87.679.356,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,container_equipment_handling,consolidated,FY2022,51541457.0,USD,LK2023,96,81.0,51.541.457,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,container_equipment_handling,consolidated,FY2023,62120580.0,USD,LK2023,96,81.0,62.120.580,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,container_equipment_handling,consolidated,FY2024,72008726.0,USD,LK2025,96,83.0,72.008.726,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,container_equipment_handling,consolidated,FY2025,76717556.0,USD,LK2025,96,83.0,76.717.556,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,container_equipment_handling,consolidated,9M25,52028561.0,USD,LK9M26,86,,52.028.561,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,container_equipment_handling,consolidated,9M26,51703407.0,USD,LK9M26,86,,51.703.407,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,time_charter,consolidated,FY2022,18439808.0,USD,LK2023,96,81.0,18.439.808,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,time_charter,consolidated,FY2023,34330251.0,USD,LK2023,96,81.0,34.330.251,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,time_charter,consolidated,FY2024,50630728.0,USD,LK2025,96,83.0,50.630.728,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,time_charter,consolidated,FY2025,69327982.0,USD,LK2025,96,83.0,69.327.982,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,time_charter,consolidated,9M25,58280629.0,USD,LK9M26,86,,58.280.629,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,time_charter,consolidated,9M26,67361246.0,USD,LK9M26,86,,67.361.246,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,other_revenue,consolidated,FY2022,16392596.0,USD,LK2023,96,81.0,16.392.596,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,other_revenue,consolidated,FY2023,26830086.0,USD,LK2023,96,81.0,26.830.086,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,other_revenue,consolidated,FY2024,22220333.0,USD,LK2025,96,83.0,22.220.333,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,other_revenue,consolidated,FY2025,22444263.0,USD,LK2025,96,83.0,22.444.263,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian
+revenue_by_service,other_revenue,consolidated,9M25,14693098.0,USD,LK9M26,86,,14.693.098,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+revenue_by_service,other_revenue,consolidated,9M26,16730849.0,USD,LK9M26,86,,16.730.849,preferred,usable,,catatan pendapatan menurut jenis jasa pada laporan keuangan konsolidasian; interim tidak diaudit
+segment_share_reported,segment_share_reported,shipping,FY2025,76.4,%,AR2025,125,124.0,76.4%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,logistics,FY2025,12.1,%,AR2025,125,124.0,12.1%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,ports,FY2025,8.2,%,AR2025,125,124.0,8.2%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,services,FY2025,3.3,%,AR2025,125,124.0,3.3%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,shipping,FY2024,73.8,%,AR2024,109,108.0,73.8%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,logistics,FY2024,14.2,%,AR2024,109,108.0,14.2%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,ports,FY2024,8.6,%,AR2024,109,108.0,8.6%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_share_reported,segment_share_reported,services,FY2024,3.4,%,AR2024,109,108.0,3.4%,preferred,usable,,"pangsa terhadap jumlah keempat lini (denominator gross), bukan terhadap pendapatan konsolidasi"
+segment_fs,fs_segment_revenue,shipping_agency,FY2023,617797660.0,USD,LK2023,113,,617.797.660,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,logistics_ports,FY2023,158293881.0,USD,LK2023,113,,158.293.881,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,others,FY2023,24141195.0,USD,LK2023,113,,24.141.195,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,total_gross,FY2023,800232736.0,USD,LK2023,113,,800.232.736,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,elimination,FY2023,-27828507.0,USD,LK2023,113,,27.828.507,preferred,usable,,eliminasi antar-segmen
+segment_fs,fs_segment_profit,shipping_agency,FY2023,117840011.0,USD,LK2023,113,,117.840.011,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,logistics_ports,FY2023,32979424.0,USD,LK2023,113,,32.979.424,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,others,FY2023,2946127.0,USD,LK2023,113,,2.946.127,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,total_gross,FY2023,153765562.0,USD,LK2023,113,,153.765.562,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_da,shipping_agency,FY2023,106538265.0,USD,LK2023,114,,106.538.265,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,logistics_ports,FY2023,7786267.0,USD,LK2023,114,,7.786.267,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,others,FY2023,1345721.0,USD,LK2023,114,,1.345.721,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,consolidated,FY2023,115670253.0,USD,LK2023,114,,115.670.253,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_capex,shipping_agency,FY2023,265458151.0,USD,LK2023,114,,265.458.151,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,logistics_ports,FY2023,14058198.0,USD,LK2023,114,,14.058.198,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,others,FY2023,7804910.0,USD,LK2023,114,,7.804.910,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,consolidated,FY2023,287321259.0,USD,LK2023,114,,287.321.259,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_revenue_geography,indonesia,FY2023,402089511.0,USD,LK2023,114,,402.089.511,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,southeast_asia_ex_indonesia,FY2023,269528261.0,USD,LK2023,114,,269.528.261,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,middle_east_india,FY2023,95344213.0,USD,LK2023,114,,95.344.213,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,others,FY2023,5442244.0,USD,LK2023,114,,5.442.244,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_segment_revenue,shipping_agency,FY2022,1022428842.0,USD,LK2023,113,,1.022.428.842,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,logistics_ports,FY2022,139329475.0,USD,LK2023,113,,139.329.475,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,others,FY2022,21396011.0,USD,LK2023,113,,21.396.011,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,total_gross,FY2022,1183154328.0,USD,LK2023,113,,1.183.154.328,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,elimination,FY2022,-32194297.0,USD,LK2023,113,,32.194.297,preferred,usable,,eliminasi antar-segmen
+segment_fs,fs_segment_profit,shipping_agency,FY2022,362111269.0,USD,LK2023,113,,362.111.269,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,logistics_ports,FY2022,28691328.0,USD,LK2023,113,,28.691.328,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,others,FY2022,3300035.0,USD,LK2023,113,,3.300.035,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,total_gross,FY2022,394102632.0,USD,LK2023,113,,394.102.632,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_da,shipping_agency,FY2022,108784066.0,USD,LK2023,114,,108.784.066,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,logistics_ports,FY2022,7571389.0,USD,LK2023,114,,7.571.389,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,others,FY2022,1094376.0,USD,LK2023,114,,1.094.376,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,consolidated,FY2022,117449831.0,USD,LK2023,114,,117.449.831,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_capex,shipping_agency,FY2022,191815477.0,USD,LK2023,114,,191.815.477,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,logistics_ports,FY2022,27867167.0,USD,LK2023,114,,27.867.167,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,others,FY2022,1420868.0,USD,LK2023,114,,1.420.868,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,consolidated,FY2022,221103512.0,USD,LK2023,114,,221.103.512,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_revenue_geography,indonesia,FY2022,517178427.0,USD,LK2023,114,,517.178.427,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,southeast_asia_ex_indonesia,FY2022,446448892.0,USD,LK2023,114,,446.448.892,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,middle_east_india,FY2022,177319637.0,USD,LK2023,114,,177.319.637,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,others,FY2022,10013075.0,USD,LK2023,114,,10.013.075,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_segment_revenue,shipping_agency,FY2025,640275879.0,USD,LK2025,115,,640.275.879,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,logistics_ports,FY2025,170245546.0,USD,LK2025,115,,170.245.546,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,others,FY2025,27836379.0,USD,LK2025,115,,27.836.379,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,total_gross,FY2025,838357804.0,USD,LK2025,115,,838.357.804,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,elimination,FY2025,-36663073.0,USD,LK2025,115,,36.663.073,preferred,usable,,eliminasi antar-segmen
+segment_fs,fs_segment_profit,shipping_agency,FY2025,115860508.0,USD,LK2025,115,,115.860.508,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,logistics_ports,FY2025,28625008.0,USD,LK2025,115,,28.625.008,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,others,FY2025,2803887.0,USD,LK2025,115,,2.803.887,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,total_gross,FY2025,147289403.0,USD,LK2025,115,,147.289.403,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_da,shipping_agency,FY2025,88769446.0,USD,LK2025,116,,88.769.446,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,logistics_ports,FY2025,8166344.0,USD,LK2025,116,,8.166.344,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,others,FY2025,1981032.0,USD,LK2025,116,,1.981.032,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,consolidated,FY2025,98916822.0,USD,LK2025,116,,98.916.822,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_capex,shipping_agency,FY2025,204711137.0,USD,LK2025,116,,204.711.137,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,logistics_ports,FY2025,9143018.0,USD,LK2025,116,,9.143.018,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,others,FY2025,999776.0,USD,LK2025,116,,999.776,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,consolidated,FY2025,214853931.0,USD,LK2025,116,,214.853.931,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_revenue_geography,indonesia,FY2025,439010169.0,USD,LK2025,117,,439.010.169,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,southeast_asia_ex_indonesia,FY2025,264543977.0,USD,LK2025,117,,264.543.977,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,middle_east_india,FY2025,90565889.0,USD,LK2025,117,,90.565.889,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,others,FY2025,7574696.0,USD,LK2025,117,,7.574.696,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_segment_revenue,shipping_agency,FY2024,570177558.0,USD,LK2025,115,,570.177.558,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,logistics_ports,FY2024,176046494.0,USD,LK2025,115,,176.046.494,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,others,FY2024,26203480.0,USD,LK2025,115,,26.203.480,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,total_gross,FY2024,772427532.0,USD,LK2025,115,,772.427.532,preferred,usable,,sebelum eliminasi
+segment_fs,fs_segment_revenue,elimination,FY2024,-35022321.0,USD,LK2025,115,,35.022.321,preferred,usable,,eliminasi antar-segmen
+segment_fs,fs_segment_profit,shipping_agency,FY2024,115496641.0,USD,LK2025,115,,115.496.641,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,logistics_ports,FY2024,31131366.0,USD,LK2025,115,,31.131.366,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,others,FY2024,2780200.0,USD,LK2025,115,,2.780.200,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_profit,total_gross,FY2024,149408207.0,USD,LK2025,115,,149.408.207,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain"
+segment_fs,fs_segment_da,shipping_agency,FY2024,64997890.0,USD,LK2025,116,,64.997.890,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,logistics_ports,FY2024,9287219.0,USD,LK2025,116,,9.287.219,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,others,FY2024,1839017.0,USD,LK2025,116,,1.839.017,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_da,consolidated,FY2024,76124126.0,USD,LK2025,116,,76.124.126,preferred,usable,,penyusutan dan amortisasi
+segment_fs,fs_segment_capex,shipping_agency,FY2024,96514899.0,USD,LK2025,116,,96.514.899,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,logistics_ports,FY2024,6479928.0,USD,LK2025,116,,6.479.928,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,others,FY2024,1931675.0,USD,LK2025,116,,1.931.675,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_segment_capex,consolidated,FY2024,104926502.0,USD,LK2025,116,,104.926.502,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas"
+segment_fs,fs_revenue_geography,indonesia,FY2024,419880495.0,USD,LK2025,117,,419.880.495,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,southeast_asia_ex_indonesia,FY2024,226902206.0,USD,LK2025,117,,226.902.206,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,middle_east_india,FY2024,83903333.0,USD,LK2025,117,,83.903.333,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_revenue_geography,others,FY2024,6719177.0,USD,LK2025,117,,6.719.177,preferred,usable,,pendapatan menurut pasar geografis
+segment_fs,fs_segment_revenue,shipping_agency,9M26,521131213.0,USD,LK9M26,99,,521.131.213,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,logistics_ports,9M26,134174886.0,USD,LK9M26,99,,134.174.886,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,others,9M26,21442044.0,USD,LK9M26,99,,21.442.044,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,total_gross,9M26,676748143.0,USD,LK9M26,99,,676.748.143,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,elimination,9M26,-29374582.0,USD,LK9M26,99,,29.374.582,preferred,usable,,eliminasi antar-segmen; interim tidak diaudit
+segment_fs,fs_segment_profit,shipping_agency,9M26,81483299.0,USD,LK9M26,99,,81.483.299,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_profit,logistics_ports,9M26,30069937.0,USD,LK9M26,99,,30.069.937,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_profit,others,9M26,2208634.0,USD,LK9M26,99,,2.208.634,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_profit,total_gross,9M26,113761870.0,USD,LK9M26,99,,113.761.870,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_da,shipping_agency,9M26,104867638.0,USD,LK9M26,100,,104.867.638,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_da,logistics_ports,9M26,5663618.0,USD,LK9M26,100,,5.663.618,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_da,others,9M26,1314550.0,USD,LK9M26,100,,1.314.550,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_da,consolidated,9M26,111845806.0,USD,LK9M26,100,,111.845.806,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_capex,shipping_agency,9M26,82003839.0,USD,LK9M26,100,,82.003.839,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_segment_capex,logistics_ports,9M26,13898405.0,USD,LK9M26,100,,13.898.405,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_segment_capex,others,9M26,902520.0,USD,LK9M26,100,,902.520,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_segment_capex,consolidated,9M26,96804764.0,USD,LK9M26,100,,96.804.764,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_revenue_geography,indonesia,9M26,303358364.0,USD,LK9M26,100,,303.358.364,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_revenue_geography,southeast_asia_ex_indonesia,9M26,198469871.0,USD,LK9M26,100,,198.469.871,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_revenue_geography,middle_east_india,9M26,94085097.0,USD,LK9M26,100,,94.085.097,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_revenue_geography,others,9M26,51460229.0,USD,LK9M26,100,,51.460.229,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_segment_revenue,shipping_agency,9M25,465260021.0,USD,LK9M26,99,,465.260.021,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,logistics_ports,9M25,113479093.0,USD,LK9M26,99,,113.479.093,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,others,9M25,19897795.0,USD,LK9M26,99,,19.897.795,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,total_gross,9M25,598636909.0,USD,LK9M26,99,,598.636.909,preferred,usable,,sebelum eliminasi; interim tidak diaudit
+segment_fs,fs_segment_revenue,elimination,9M25,-27080091.0,USD,LK9M26,99,,27.080.091,preferred,usable,,eliminasi antar-segmen; interim tidak diaudit
+segment_fs,fs_segment_profit,shipping_agency,9M25,84357121.0,USD,LK9M26,99,,84.357.121,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_profit,logistics_ports,9M25,21479885.0,USD,LK9M26,99,,21.479.885,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_profit,others,9M25,1907682.0,USD,LK9M26,99,,1.907.682,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_profit,total_gross,9M25,107744688.0,USD,LK9M26,99,,107.744.688,preferred,usable,,"laba segmen = laba bruto segmen, sebelum G&A dan pos lain; interim tidak diaudit"
+segment_fs,fs_segment_da,shipping_agency,9M25,60327537.0,USD,LK9M26,100,,60.327.537,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_da,logistics_ports,9M25,6228582.0,USD,LK9M26,100,,6.228.582,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_da,others,9M25,1339312.0,USD,LK9M26,100,,1.339.312,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_da,consolidated,9M25,67895431.0,USD,LK9M26,100,,67.895.431,preferred,usable,,penyusutan dan amortisasi; interim tidak diaudit
+segment_fs,fs_segment_capex,shipping_agency,9M25,71594953.0,USD,LK9M26,100,,71.594.953,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_segment_capex,logistics_ports,9M25,5467431.0,USD,LK9M26,100,,5.467.431,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_segment_capex,others,9M25,2213455.0,USD,LK9M26,100,,2.213.455,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_segment_capex,consolidated,9M25,79275839.0,USD,LK9M26,100,,79.275.839,preferred,usable,,"pengeluaran modal (penambahan aset tetap termasuk hak guna), bukan arus kas; interim tidak diaudit"
+segment_fs,fs_revenue_geography,indonesia,9M25,286852363.0,USD,LK9M26,100,,286.852.363,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_revenue_geography,southeast_asia_ex_indonesia,9M25,203345319.0,USD,LK9M26,100,,203.345.319,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_revenue_geography,middle_east_india,9M25,74210108.0,USD,LK9M26,100,,74.210.108,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_fs,fs_revenue_geography,others,9M25,7149028.0,USD,LK9M26,100,,7.149.028,preferred,usable,,pendapatan menurut pasar geografis; interim tidak diaudit
+segment_revenue,segment_revenue,shipping,FY2022,1022.4,USD juta,LK2023,113,,1.022.428.842,preferred,usable,CG-SHIP-FY2022,"nilai laporan keuangan diaudit (Jasa pelayaran dan keagenan), dipilih sebagai seri pilihan"
+volume,port_throughput_total,ports,FY2023,924600.0,TEU,S3,76,,924.600,preferred,usable,,pelabuhan domestik dan internasional (dokumen sukuk Tahap III)
+volume,port_throughput_total,ports,FY2024,1002723.0,TEU,S3,76,,1.002.723,preferred,usable,,"pelabuhan domestik dan internasional; pertumbuhan 8,45% cocok dengan 8,4% pada Annual Report 2024"
+bunker,vlsfo_singapore_avg,singapore,FY2025,493.0,USD per ton,AR2025,45,43.0,493,preferred,usable,,rata-rata harga VLSFO Singapura 2025 menurut Annual Report
+bunker,vlsfo_singapore_yoy,singapore,FY2025,-22.0,%,AR2025,45,43.0,22%,preferred,usable,,penurunan rata-rata harga VLSFO Singapura 2025 terhadap 2024
+bunker,vlsfo_price_point,singapore,2023-11,697.0,USD per ton,AR2023,89,,$697,preferred,conditional,,"harga VLSFO November 2023, naik 18% dibanding Maret 2023; titik harga, bukan rata-rata tahunan"
+bunker,vlsfo_regression_slope,chart_ar2021,FY2021,6.1,USD per ton per satuan x,AR2021,27,23.0,"6,1x",excluded,quarantined,,"regresi pada grafik: y = 6,1x + 136,2; R2 74,25%. Variabel sumbu-x tidak tercetak pada teks; tidak dapat dipastikan sebagai Brent, sehingga tidak dipakai"
+energy,energy_total,group,FY2022,1177506.99,GJ,AR2022,52,,"1.177.506,99",excluded,quarantined,,"batas pelaporan sebelum penyajian ulang 2025; tidak sebanding dengan seri 2023-2025 (sekitar 4,5 kali lebih kecil)"
+energy,energy_total,group,FY2021,579668.8,GJ,AR2022,52,,"579.668,80",excluded,quarantined,,batas pelaporan sebelum penyajian ulang 2025; tidak sebanding dengan seri 2023-2025
+price_volume_reported,freight_volume_growth,company,FY2022,28.5,%,AR2022,15,,28.5%,preferred,usable,,volume angkutan perusahaan
+price_volume_reported,freight_volume_growth,domestic,FY2022,11.0,%,AR2022,32,,11.0%,preferred,usable,,volume domestik
+price_volume_reported,freight_rate_change,international,FY2023,-39.0,%,AR2023,33,,39%,preferred,usable,,rata-rata tarif angkut internasional
+price_volume_reported,freight_rate_change,jakarta_hub,FY2023,14.0,%,AR2023,89,,14%,preferred,usable,,tarif rute hub Jakarta
+price_volume_reported,freight_volume_growth,jakarta_hub,FY2023,-5.0,%,AR2023,89,,5%,preferred,usable,,volume rute hub Jakarta
+price_volume_reported,freight_rate_change,surabaya_hub,FY2023,-6.0,%,AR2023,89,,6%,preferred,usable,,tarif rute hub Surabaya
+price_volume_reported,freight_volume_growth,surabaya_hub,FY2023,4.0,%,AR2023,89,,4%,preferred,usable,,volume rute hub Surabaya
+price_volume_reported,freight_rate_change,jakarta_hub,FY2024,-21.0,%,AR2024,110,,21%,preferred,usable,CG-JKT-RATE-FY2024,tarif hub Jakarta menurut bagian operasi (halaman 44 menyebut 29%)
+price_volume_reported,freight_rate_change,surabaya_hub,FY2024,-10.0,%,AR2024,110,,10%,preferred,usable,,tarif hub Surabaya
+price_volume_reported,freight_volume_growth,jakarta_makassar,FY2024,16.0,%,AR2024,110,,16%,preferred,usable,,volume Jakarta-Makassar
+price_volume_reported,freight_volume_growth,surabaya_makassar,FY2024,11.0,%,AR2024,110,,11%,preferred,usable,,volume Surabaya-Makassar
+price_volume_reported,freight_volume_growth,company,FY2025,8.0,%,AR2025,45,,8%,preferred,usable,,"volume kargo perusahaan, dibanding 5% volume kontainer global"
+price_volume_reported,freight_rate_change,global_container,FY2025,-24.0,%,AR2025,45,,24%,preferred,usable,,koreksi tarif kontainer global
+price_volume_reported,freight_volume_growth,global_container,FY2025,5.0,%,AR2025,45,,5%,preferred,usable,,volume kontainer global
+price_volume_reported,freight_rate_change,jakarta_hub,FY2024,-29.0,%,AR2024,44,,29%,vintage,conditional,CG-JKT-RATE-FY2024,halaman ringkasan menyebut 29%; bagian operasi (halaman 110) menyebut 21%
+fx_position,idr_cash,idr_for_usd_functional_entities,9M26,39441313.0,USD,LK9M26,97,93.0,39.441.313,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_cash,idr_for_usd_functional_entities,FY2025,7882193.0,USD,LK9M26,97,93.0,7.882.193,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_receivables,idr_for_usd_functional_entities,9M26,11288855.0,USD,LK9M26,98,94.0,11.288.855,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_receivables,idr_for_usd_functional_entities,FY2025,6358104.0,USD,LK9M26,98,94.0,6.358.104,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_bank_loans,idr_for_usd_functional_entities,9M26,2997132.0,USD,LK9M26,98,94.0,2.997.132,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_bank_loans,idr_for_usd_functional_entities,FY2025,3622242.0,USD,LK9M26,98,94.0,3.622.242,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_trade_payables,idr_for_usd_functional_entities,9M26,7100943.0,USD,LK9M26,98,94.0,7.100.943,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_trade_payables,idr_for_usd_functional_entities,FY2025,2268340.0,USD,LK9M26,98,94.0,2.268.340,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_long_term_loans,idr_for_usd_functional_entities,9M26,1021607.0,USD,LK9M26,98,94.0,1.021.607,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_long_term_loans,idr_for_usd_functional_entities,FY2025,423231.0,USD,LK9M26,98,94.0,423.231,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_sukuk,idr_for_usd_functional_entities,9M26,85519224.0,USD,LK9M26,98,94.0,85.519.224,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,idr_sukuk,idr_for_usd_functional_entities,FY2025,50004469.0,USD,LK9M26,98,94.0,50.004.469,preferred,usable,,"posisi dalam rupiah milik entitas berfungsi dolar AS, setara USD pada kurs penutupan; catatan aset dan liabilitas moneter dalam mata uang selain mata uang fungsional"
+fx_position,monetary_assets_total,all_currencies,9M26,119053459.0,USD,LK9M26,98,94.0,119.053.459,preferred,usable,,seluruh mata uang selain mata uang fungsional; aset moneter neto negatif berarti liabilitas melebihi aset
+fx_position,monetary_assets_total,all_currencies,FY2025,79505061.0,USD,LK9M26,98,94.0,79.505.061,preferred,usable,,seluruh mata uang selain mata uang fungsional; aset moneter neto negatif berarti liabilitas melebihi aset
+fx_position,monetary_liabilities_total,all_currencies,9M26,128615658.0,USD,LK9M26,98,94.0,128.615.658,preferred,usable,,seluruh mata uang selain mata uang fungsional; aset moneter neto negatif berarti liabilitas melebihi aset
+fx_position,monetary_liabilities_total,all_currencies,FY2025,73396026.0,USD,LK9M26,98,94.0,73.396.026,preferred,usable,,seluruh mata uang selain mata uang fungsional; aset moneter neto negatif berarti liabilitas melebihi aset
+fx_position,monetary_net,all_currencies,9M26,-9562199.0,USD,LK9M26,98,94.0,9.562.199,preferred,usable,,seluruh mata uang selain mata uang fungsional; aset moneter neto negatif berarti liabilitas melebihi aset
+fx_position,monetary_net,all_currencies,FY2025,6109035.0,USD,LK9M26,98,94.0,6.109.035,preferred,usable,,seluruh mata uang selain mata uang fungsional; aset moneter neto negatif berarti liabilitas melebihi aset
+fx_position,idr_sukuk_nominal,idr_for_usd_functional_entities,9M26,1539175000000.0,IDR,LK9M26,98,94.0,1.539.175.000.000,preferred,usable,,nominal sukuk rupiah; sama dengan jumlah tiga seri pada jadwal pendanaan
+fx_position,idr_sukuk_nominal,idr_for_usd_functional_entities,FY2025,839175000000.0,IDR,LK9M26,98,94.0,839.175.000.000,preferred,usable,,dua seri beredar pada akhir 2025 (Seri B Tahap I dan Tahap II)

@@ -1,0 +1,14 @@
+metric_key,scope,unit,definition,caveat
+segment_revenue,segment,USD juta,"Pendapatan lini bisnis (Shipping, Logistics, Ports, Services) menurut narasi Annual Report, sebelum eliminasi antar-segmen",Jumlah keempat lini melebihi pendapatan konsolidasi; pangsa yang dilaporkan memakai denominator gross. Definisi lini berubah antar-vintage; vintage terbaru dipilih (series_role=preferred) dan konflik dicatat
+yoy_growth_reported,varies,%,Pertumbuhan tahunan sebagaimana tertulis pada sumber,Hanya untuk uji aritmetika terhadap nilai yang disimpan
+container_vessels,container_shipping,kapal,Jumlah kapal kontainer yang dioperasikan segmen container shipping,Termasuk kapal milik dan sewa; bukan armada seluruh grup
+container_capacity_teu,container_shipping,TEU,Kapasitas armada kontainer,Hanya 2021 dan 2025; seri 2022-2024 tidak mengungkap kapasitas
+tanker_vessels / dry_bulk_vessels / tanker_bulk_dwt,shipping,kapal / DWT,Armada tanker dan dry bulk serta kapasitas angkut gabungan,DWT bersifat gabungan tanker dan dry bulk
+fleet_owned / fleet_chartered_in / fleet_chartered_out / fleet_operational_control,group,kapal,"Kapal milik, sewa masuk, sewa keluar, dan total pada kendali operasional",Total = milik + sewa masuk - sewa keluar; menentukan siapa menanggung bunker dan biaya sewa
+container_volume_total,container_shipping,juta TEU,Volume muatan kontainer segmen container shipping,Seri 2022-2024 saja; 2022 dibulatkan satu desimal; 2025 tidak diungkap
+container_volume_intl,container_shipping,juta TEU,Volume kontainer rute internasional,2025 dibulatkan; cakupan lebih sempit daripada volume total
+port_throughput_domestic / port_throughput_total / port_throughput_growth,ports,TEU / %,Throughput pelabuhan,Cakupan 2025 tidak dinyatakan dan tidak sebanding dengan seri domestik 2021-2022
+warehouse_revenue / forwarding_revenue / trucks,logistics,USD juta / unit,Pendapatan sub-segmen logistik dan jumlah truk,Sebagian tahun tidak diungkap
+agency_revenue / ship_services_revenue,services,USD juta,Komponen lini Services pada 2021-2022,Definisi lini berubah setelah 2022
+energy_conventional / energy_renewable / energy_total,group,GJ,Konsumsi energi grup,"2023-2024 disajikan ulang; mencakup kapal, kendaraan, dan listrik, bukan hanya bunker; tidak dipecah per jenis bahan bakar"
+revenue_by_service (5 jenis),consolidated,USD,"Pendapatan konsolidasi menurut jenis jasa: pendapatan angkutan, keagenan/forwarding/pelabuhan, penanganan peralatan dan muatan, sewa kapal berbasis waktu, lain-lain",Dari laporan keuangan; jumlahnya sama dengan pendapatan konsolidasi (diuji). Basis tunggal yang sebanding sampai TTM

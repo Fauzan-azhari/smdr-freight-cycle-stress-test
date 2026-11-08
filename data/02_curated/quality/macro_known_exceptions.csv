@@ -1,0 +1,2 @@
+check_id,explanation
+FX:ohlc,"Sumber kurs: penutupan berada di bawah nilai terendah bulan itu pada Apr-2020 (14.825,0 vs 14.857,5), Mei-2020 (14.575,0 vs 14.607,5) dan Des-2020 (14.040,0 vs 14.050,0); selisih 0,07-0,23%. Penyebab tidak diketahui (file tidak mencatat penyedia atau cara penyusunan). Pakai hanya kolom Terakhir; jangan pakai Tertinggi/Terendah untuk tiga bulan ini."

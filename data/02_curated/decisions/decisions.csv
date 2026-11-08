@@ -1,0 +1,11 @@
+decision_id,topic,decision,description,reference,decided_by,decided_on
+D01,ebitda_basis,pdf_audit,"Basis depresiasi beban pokok FY2025 untuk EBITDA operasi memakai PDF audit (96.603.808), bukan Excel IDX (96.505.423)",KE-LK-01,pengguna,2026-11-05
+D02,zero_fill_Z01,approved,Sukuk jatuh tempo <1 tahun pada 30 Sep 2026 yang berstatus n.d. diisi nol menurut aturan Z01,zero_fill_rules.csv,pengguna,2026-11-05
+D03,entity_scope,ssl_is_subsidiary,"Samudera Shipping Line Ltd (SSL) adalah anak perusahaan SMDR, divalidasi pengguna; dua kapal 3.000 TEU SSL tetap unmatched terhadap program lima/sembilan kapal",news 3 Nov 2026,pengguna,2026-11-05
+D04,scope_mitigation,keep,Mitigasi tetap dalam cakupan sebagai bagian inti stress test; efisiensi/penggantian armada (M5) yang ditunda,percakapan 5 Nov 2026,pengguna,2026-11-05
+D05,scope_covenant,keep_light,"Covenant dipertahankan versi ringan: pita dua definisi pada tanggal uji tahunan, berlabel proforma_conditional",percakapan 5 Nov 2026,pengguna,2026-11-05
+D06,tooling,jupyter,Analisis dilakukan di notebook Jupyter sebagai lapisan penyajian di atas src/smdr/transition,percakapan 5 Nov 2026,pengguna,2026-11-05
+D07,source_access,all_folders,"Seluruh folder repositori boleh dibuka, termasuk News-Update-SMDR, Academic-Research-and-Framework, Clarkson-News",percakapan 5 Nov 2026,pengguna,2026-11-05
+D08,covenant_lease,included,Cover covenant sukuk dihitung dengan bagian lancar sewa pada penyebut dan seluruh sewa pada utang berbunga (definisi konservatif); klausul tidak menyebut sewa,Annual-Report-and-Sukuk-Adjustment-Evidence bagian 4; S3 PDF30,pengguna,2026-11-05
+D09,zero_fill_Z02_Z05,approved,"Aturan zero-fill Z02-Z05 (sukuk jatuh tempo <1 tahun FY2022/2024/2025, sukuk jangka panjang FY2022) disetujui",zero_fill_rules.csv,pengguna,2026-11-05
+D10,presentation,final_only,"Naskah dan notebook menampilkan keputusan akhir dan hasil akhir saja; perbandingan versi (legacy, basis Excel, definisi alternatif) tetap di jejak audit repositori",percakapan 5 Nov 2026,pengguna,2026-11-05

@@ -1,0 +1,29 @@
+vintage_id,provider,as_of_date,source_id,locator,variable,horizon,value,unit,evidence_status,acceptance_status,note
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,gdp_growth,2026F,5.34,% yoy,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,gdp_growth,2027F,5.3,% yoy,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,inflation,2026F,3.53,% yoy,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,inflation,2027F,3.25,% yoy,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,idr_usd_eop,2026F,17805.0,IDR/USD,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,idr_usd_eop,2027F,17722.0,IDR/USD,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,bi_rate,2026F,6.0,% eop,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,bi_rate,2027F,6.0,% eop,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,fed_funds,2026F,4.25,% eop,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,fed_funds,2027F,4.25,% eop,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,idr_10y_yield,2026F,7.07,%,forecast,usable,
+OCE-2026-10,OCE Bank Mandiri,2026-10-06,OCE-MEI,hal. 46,idr_10y_yield,2027F,7.01,%,forecast,usable,
+OCE-2026-11,OCE Bank Mandiri,2026-11-02,OCE-BRIEF,hal. 1,gdp_growth,2026F,5.34,% yoy,forecast,usable,
+OCE-2026-11,OCE Bank Mandiri,2026-11-02,OCE-BRIEF,hal. 1,inflation,2026F,3.53,% yoy,forecast,usable,
+OCE-2026-11,OCE Bank Mandiri,2026-11-02,OCE-BRIEF,hal. 1,idr_usd_eop,2026F,18118.0,IDR/USD,forecast,usable,
+OCE-2026-11,OCE Bank Mandiri,2026-11-02,OCE-BRIEF,hal. 1,bi_rate,2026F,6.0,% eop,forecast,usable,
+OCE-2026-10-FX,OCE Bank Mandiri,2026-10-26,OCE-FX,catatan hal. 2,idr_usd_3m_low,3 bulan,17485.0,IDR/USD,range,usable,
+OCE-2026-10-FX,OCE Bank Mandiri,2026-10-26,OCE-FX,catatan hal. 2,idr_usd_3m_high,3 bulan,18320.0,IDR/USD,range,usable,
+OCE-2026-10-FX,OCE Bank Mandiri,2026-10-26,OCE-FX,catatan hal. 2,idr_usd_6m_low,6 bulan,17250.0,IDR/USD,range,usable,
+OCE-2026-10-FX,OCE Bank Mandiri,2026-10-26,OCE-FX,catatan hal. 2,idr_usd_6m_high,6 bulan,18340.0,IDR/USD,range,usable,
+WB-2026-10,World Bank (EAP Update),2026-10-01,OCE-MEI,hal. 5 (mengutip World Bank),gdp_growth,2026F,5.2,% yoy,forecast,usable,proyeksi Indonesia; dikutip pada Monthly Economic Insights
+WB-2026-10,World Bank (EAP Update),2026-10-01,OCE-MEI,hal. 5 (mengutip World Bank),gdp_growth,2027F,5.2,% yoy,forecast,usable,proyeksi Indonesia; dikutip pada Monthly Economic Insights
+WB-2026-10,World Bank (EAP Update),2026-10-01,OCE-MEI,hal. 5 (mengutip World Bank),gdp_growth,2028F,5.3,% yoy,forecast,usable,proyeksi Indonesia; dikutip pada Monthly Economic Insights
+OCE-IND-2026-05,OCE Bank Mandiri,2026-05-01,OCE-IND,hal. 2-3,container_flow_growth,2026F,5.0,% yoy,forecast,usable,"arus peti kemas nasional; pembanding industri, bukan pertumbuhan SMDR"
+OCE-2026-01,OCE Bank Mandiri,2026-01-31,Research/Notes,Macro-Research-Synthesis bagian 5,idr_usd_eop,2026F,16732.0,IDR/USD,derived_from_note,conditional,"dari catatan sintesis, belum diverifikasi ke dokumen asli"
+OCE-2026-01,OCE Bank Mandiri,2026-01-31,Research/Notes,Macro-Research-Synthesis bagian 5,bi_rate,2026F,4.25,% eop,derived_from_note,conditional,"dari catatan sintesis, belum diverifikasi ke dokumen asli"
+OCE-2026-06,OCE Bank Mandiri,2026-06-30,Research/Notes,Macro-Research-Synthesis bagian 5,idr_usd_eop,2026F,17625.0,IDR/USD,derived_from_note,conditional,"dari catatan sintesis, belum diverifikasi ke dokumen asli"
+OCE-2026-06,OCE Bank Mandiri,2026-06-30,Research/Notes,Macro-Research-Synthesis bagian 5,bi_rate,2026F,5.75,% eop,derived_from_note,conditional,"dari catatan sintesis, belum diverifikasi ke dokumen asli"
